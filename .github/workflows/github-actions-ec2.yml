@@ -24,6 +24,7 @@ jobs:
           script: |
             cd /var/www/html
             git pull origin main 
+            composer update
             php bin/magento setup:upgrade 
             php bin/magento setup:di:compile 
             php bin/magento setup:static-content:deploy -f  
