@@ -1184,12 +1184,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/AcGdeco/deco_menu.git",
-                "reference": "5553a814ea9ddafcd6954071d859e32e0e95e75a"
+                "reference": "6737cf95c8b089d27d2ba574026edea66377445b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AcGdeco/deco_menu/zipball/5553a814ea9ddafcd6954071d859e32e0e95e75a",
-                "reference": "5553a814ea9ddafcd6954071d859e32e0e95e75a",
+                "url": "https://api.github.com/repos/AcGdeco/deco_menu/zipball/6737cf95c8b089d27d2ba574026edea66377445b",
+                "reference": "6737cf95c8b089d27d2ba574026edea66377445b",
                 "shasum": ""
             },
             "default-branch": true,
@@ -1217,7 +1217,7 @@
                 "source": "https://github.com/AcGdeco/deco_menu/tree/main",
                 "issues": "https://github.com/AcGdeco/deco_menu/issues"
             },
-            "time": "2024-11-26T16:53:39+00:00"
+            "time": "2025-01-15T18:07:14+00:00"
         },
         {
             "name": "doctrine/annotations",
