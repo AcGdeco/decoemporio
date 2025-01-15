@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Deploy to EC2
-      uses: danielgatis/action-ssh@v2
+      uses: AcGdeco/decoemporio@v2
       with:
         host: 54.221.95.146
         username: ubuntu
