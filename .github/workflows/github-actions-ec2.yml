@@ -24,3 +24,8 @@ jobs:
           script: |
             cd /var/www/html
             git pull origin main 
+            php bin/magento setup:update 
+            php bin/magento setup:di:compile 
+            php bin/magento setup:static-content:deploy -f  
+            php bin/magento indexer:reindex 
+            php bin/magento cache:clean 
