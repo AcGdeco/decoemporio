@@ -28,7 +28,7 @@
         }
     ],
     "require": {
-        "br-paypaldev/magento2-module": "^1.0",
+        "pagbank/payment-magento": "~100.2",
         "deco/menu": "dev-main",
         "deco/deco_theme": "dev-main",
         "php": "~8.1.0||~8.2.0",

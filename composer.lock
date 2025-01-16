@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "db45ade2c54905155eefa291b2a8f4a3",
+    "content-hash": "2bd00d222785bc51c16978b7e8d82430",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -62,16 +62,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.336.15",
+            "version": "3.337.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "f8028ef4b8dcb0acfe86c33e207fd3cb0b9cbf3b"
+                "reference": "7e40cecb3ce66749bbd5eaa9f370de48c16acd6c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/f8028ef4b8dcb0acfe86c33e207fd3cb0b9cbf3b",
-                "reference": "f8028ef4b8dcb0acfe86c33e207fd3cb0b9cbf3b",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/7e40cecb3ce66749bbd5eaa9f370de48c16acd6c",
+                "reference": "7e40cecb3ce66749bbd5eaa9f370de48c16acd6c",
                 "shasum": ""
             },
             "require": {
@@ -154,68 +154,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.336.15"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.337.0"
             },
-            "time": "2025-01-14T19:03:58+00:00"
-        },
-        {
-            "name": "br-paypaldev/magento2-module",
-            "version": "1.1.3-p1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/br-paypaldev/magento2-module.git",
-                "reference": "078c49e7464a980862d95cfa1a0a83609069418d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/br-paypaldev/magento2-module/zipball/078c49e7464a980862d95cfa1a0a83609069418d",
-                "reference": "078c49e7464a980862d95cfa1a0a83609069418d",
-                "shasum": ""
-            },
-            "require": {
-                "paypal/rest-api-sdk-php": "^1.13.0",
-                "php": "~7.0.0|~7.1.0|~7.2.0|~7.3.0|~7.4.0|~8.0.0|~8.1.0"
-            },
-            "require-dev": {
-                "fabpot/php-cs-fixer": "~1.2",
-                "lusitanian/oauth": "~0.3 <=0.7.0",
-                "magento-ecg/coding-standard": "dev-master",
-                "pdepend/pdepend": "2.2.2",
-                "phpdocumentor/phpdocumentor": "^2.8",
-                "phpmd/phpmd": "@stable",
-                "phpunit/phpunit": "4.1.0",
-                "phpunit/phpunit-selenium": ">=1.2",
-                "rregeer/phpunit-coverage-check": "^0.1.3",
-                "satooshi/php-coveralls": "^1.0",
-                "sebastian/phpcpd": "^2.0",
-                "sjparkinson/static-review": "~4.1",
-                "squizlabs/php_codesniffer": "2.7.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "PayPalBR\\PayPal\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0-only"
-            ],
-            "authors": [
-                {
-                    "name": "Otávio Augusto",
-                    "email": "odefranca@paypal.com"
-                }
-            ],
-            "description": "Módulo PayPal para Magento2",
-            "support": {
-                "issues": "https://github.com/br-paypaldev/magento2-module/issues",
-                "source": "https://github.com/br-paypaldev/magento2-module/tree/1.1.3-p1"
-            },
-            "time": "2023-09-15T16:28:00+00:00"
+            "time": "2025-01-15T19:58:52+00:00"
         },
         {
             "name": "brick/math",
@@ -1587,16 +1528,16 @@
         },
         {
             "name": "ezimuel/ringphp",
-            "version": "1.2.2",
+            "version": "1.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ezimuel/ringphp.git",
-                "reference": "7887fc8488013065f72f977dcb281994f5fde9f4"
+                "reference": "648a9c3c8b5f2591a317d31aa7a18a784011b00d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ezimuel/ringphp/zipball/7887fc8488013065f72f977dcb281994f5fde9f4",
-                "reference": "7887fc8488013065f72f977dcb281994f5fde9f4",
+                "url": "https://api.github.com/repos/ezimuel/ringphp/zipball/648a9c3c8b5f2591a317d31aa7a18a784011b00d",
+                "reference": "648a9c3c8b5f2591a317d31aa7a18a784011b00d",
                 "shasum": ""
             },
             "require": {
@@ -1638,9 +1579,9 @@
             ],
             "description": "Fork of guzzle/RingPHP (abandoned) to be used with elasticsearch-php",
             "support": {
-                "source": "https://github.com/ezimuel/ringphp/tree/1.2.2"
+                "source": "https://github.com/ezimuel/ringphp/tree/1.2.3"
             },
-            "time": "2022-12-07T11:28:53+00:00"
+            "time": "2025-01-14T12:59:43+00:00"
         },
         {
             "name": "ezyang/htmlpurifier",
@@ -5629,6 +5570,70 @@
             "time": "2022-05-26T19:17:49+00:00"
         },
         {
+            "name": "pagbank/payment-magento",
+            "version": "100.2.48",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pagseguro/payment-magento.git",
+                "reference": "23e80c958dc3aba5c2c2c0170d5e76ce59ebb6df"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pagseguro/payment-magento/zipball/23e80c958dc3aba5c2c2c0170d5e76ce59ebb6df",
+                "reference": "23e80c958dc3aba5c2c2c0170d5e76ce59ebb6df",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "magento/framework": "*",
+                "magento/module-backend": "*",
+                "magento/module-checkout": "*",
+                "magento/module-config": "*",
+                "magento/module-customer": "*",
+                "magento/module-directory": "*",
+                "magento/module-eav": "*",
+                "magento/module-payment": "*",
+                "magento/module-sales": "*",
+                "magento/module-theme": "*",
+                "magento/module-ui": "*",
+                "magento/module-vault": "*",
+                "php": "~8.1.0||~8.2.0||~8.3.0"
+            },
+            "require-dev": {
+                "magento/magento-coding-standard": "*",
+                "phpmd/phpmd": "^2.13",
+                "phpstan/extension-installer": "^1.2",
+                "phpstan/phpstan": "^1.6.8",
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "PagBank\\PaymentMagento\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Bruno Elisei",
+                    "email": "brunoelisei@o2ti.com"
+                }
+            ],
+            "description": "PagBank - Payment for Magento and Adobe",
+            "support": {
+                "issues": "https://github.com/pagseguro/payment-magento/issues",
+                "source": "https://github.com/pagseguro/payment-magento/tree/100.2.48"
+            },
+            "time": "2024-12-05T17:17:27+00:00"
+        },
+        {
             "name": "paragonie/constant_time_encoding",
             "version": "v2.7.0",
             "source": {
@@ -5835,60 +5840,6 @@
                 "source": "https://github.com/paragonie/sodium_compat/tree/v2.1.0"
             },
             "time": "2024-09-04T12:51:01+00:00"
-        },
-        {
-            "name": "paypal/rest-api-sdk-php",
-            "version": "1.14.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/paypal/PayPal-PHP-SDK.git",
-                "reference": "72e2f2466975bf128a31e02b15110180f059fc04"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/paypal/PayPal-PHP-SDK/zipball/72e2f2466975bf128a31e02b15110180f059fc04",
-                "reference": "72e2f2466975bf128a31e02b15110180f059fc04",
-                "shasum": ""
-            },
-            "require": {
-                "ext-curl": "*",
-                "ext-json": "*",
-                "php": ">=5.3.0",
-                "psr/log": "^1.0.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^4.8.35"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "PayPal": "lib/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "PayPal",
-                    "homepage": "https://github.com/paypal/rest-api-sdk-php/contributors"
-                }
-            ],
-            "description": "PayPal's PHP SDK for REST APIs",
-            "homepage": "http://paypal.github.io/PayPal-PHP-SDK/",
-            "keywords": [
-                "payments",
-                "paypal",
-                "rest",
-                "sdk"
-            ],
-            "support": {
-                "issues": "https://github.com/paypal/PayPal-PHP-SDK/issues",
-                "source": "https://github.com/paypal/PayPal-PHP-SDK/tree/master"
-            },
-            "abandoned": "paypal/paypal-server-sdk",
-            "time": "2019-01-04T20:04:25+00:00"
         },
         {
             "name": "pelago/emogrifier",
@@ -6776,30 +6727,30 @@
         },
         {
             "name": "psr/log",
-            "version": "1.1.4",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "d49695b909c3b7628b6289db5479a1c204601f11"
+                "reference": "ef29f6d262798707a9edd554e2b82517ef3a9376"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/d49695b909c3b7628b6289db5479a1c204601f11",
-                "reference": "d49695b909c3b7628b6289db5479a1c204601f11",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/ef29f6d262798707a9edd554e2b82517ef3a9376",
+                "reference": "ef29f6d262798707a9edd554e2b82517ef3a9376",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "php": ">=8.0.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.1.x-dev"
+                    "dev-master": "2.0.x-dev"
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "Psr\\Log\\": "Psr/Log/"
+                    "Psr\\Log\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -6820,9 +6771,9 @@
                 "psr-3"
             ],
             "support": {
-                "source": "https://github.com/php-fig/log/tree/1.1.4"
+                "source": "https://github.com/php-fig/log/tree/2.0.0"
             },
-            "time": "2021-05-03T11:20:27+00:00"
+            "time": "2021-07-14T16:41:46+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -11359,16 +11310,16 @@
         },
         {
             "name": "dg/bypass-finals",
-            "version": "v1.8.0",
+            "version": "v1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dg/bypass-finals.git",
-                "reference": "86b00f0d900c7e15d3341e687e0df89e8c2d4632"
+                "reference": "920a7da2f3c1422fd83f9ec4df007af53dc4018b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dg/bypass-finals/zipball/86b00f0d900c7e15d3341e687e0df89e8c2d4632",
-                "reference": "86b00f0d900c7e15d3341e687e0df89e8c2d4632",
+                "url": "https://api.github.com/repos/dg/bypass-finals/zipball/920a7da2f3c1422fd83f9ec4df007af53dc4018b",
+                "reference": "920a7da2f3c1422fd83f9ec4df007af53dc4018b",
                 "shasum": ""
             },
             "require": {
@@ -11406,9 +11357,9 @@
             ],
             "support": {
                 "issues": "https://github.com/dg/bypass-finals/issues",
-                "source": "https://github.com/dg/bypass-finals/tree/v1.8.0"
+                "source": "https://github.com/dg/bypass-finals/tree/v1.9.0"
             },
-            "time": "2024-07-02T22:24:43+00:00"
+            "time": "2025-01-16T00:46:05+00:00"
         },
         {
             "name": "doctrine/instantiator",
