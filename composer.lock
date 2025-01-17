@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2bd00d222785bc51c16978b7e8d82430",
+    "content-hash": "bb37a717e33f87db4ddbc2d4fd53fadb",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -62,16 +62,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.337.0",
+            "version": "3.337.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "7e40cecb3ce66749bbd5eaa9f370de48c16acd6c"
+                "reference": "fa70febad922e9868c83bfe03c6d078fc2633e17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/7e40cecb3ce66749bbd5eaa9f370de48c16acd6c",
-                "reference": "7e40cecb3ce66749bbd5eaa9f370de48c16acd6c",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/fa70febad922e9868c83bfe03c6d078fc2633e17",
+                "reference": "fa70febad922e9868c83bfe03c6d078fc2633e17",
                 "shasum": ""
             },
             "require": {
@@ -154,9 +154,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.337.0"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.337.1"
             },
-            "time": "2025-01-15T19:58:52+00:00"
+            "time": "2025-01-16T19:12:46+00:00"
         },
         {
             "name": "brick/math",
@@ -1089,12 +1089,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/AcGdeco/deco_theme.git",
-                "reference": "9140a53d45d5ac5fbe224c77823cfe9365f7558e"
+                "reference": "4053040e5dc9e1cc1cdf67d1102b85566972b02e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AcGdeco/deco_theme/zipball/9140a53d45d5ac5fbe224c77823cfe9365f7558e",
-                "reference": "9140a53d45d5ac5fbe224c77823cfe9365f7558e",
+                "url": "https://api.github.com/repos/AcGdeco/deco_theme/zipball/4053040e5dc9e1cc1cdf67d1102b85566972b02e",
+                "reference": "4053040e5dc9e1cc1cdf67d1102b85566972b02e",
                 "shasum": ""
             },
             "require": {
@@ -1117,7 +1117,7 @@
                 "source": "https://github.com/AcGdeco/deco_theme/tree/main",
                 "issues": "https://github.com/AcGdeco/deco_theme/issues"
             },
-            "time": "2024-11-26T17:07:50+00:00"
+            "time": "2025-01-16T17:33:17+00:00"
         },
         {
             "name": "deco/menu",
@@ -1643,6 +1643,124 @@
                 "source": "https://github.com/ezyang/htmlpurifier/tree/v4.18.0"
             },
             "time": "2024-11-01T03:51:45+00:00"
+        },
+        {
+            "name": "frenet/frenet-magento2",
+            "version": "2.4.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FrenetGatewaydeFretes/frenet-magento2.git",
+                "reference": "2ac48cf56ca451f2af97433c70563ce1f8d281ef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FrenetGatewaydeFretes/frenet-magento2/zipball/2ac48cf56ca451f2af97433c70563ce1f8d281ef",
+                "reference": "2ac48cf56ca451f2af97433c70563ce1f8d281ef",
+                "shasum": ""
+            },
+            "require": {
+                "frenet/frenet-php": "^1.3.1",
+                "magento/framework": "^101.0.0|^102.0.0|^103.0.0|^104.0.0",
+                "magento/module-bundle": "^101.0.0|^102.0.0|^103.0.0|^104.0.0",
+                "magento/module-catalog": "^101.0.0|^102.0.0|^103.0.0|^104.0.0",
+                "magento/module-configurable-product": "^100.0.0",
+                "magento/module-directory": "^100.0.0",
+                "magento/module-downloadable": "^100.0.0",
+                "magento/module-grouped-product": "^100.0.0",
+                "magento/module-quote": "^101.0.0|^102.0.0|^103.0.0|^104.0.0",
+                "magento/module-shipping": "^100.0.0",
+                "magento/module-store": "^101.0.0",
+                "php": "^7.0|>=8.0",
+                "symfony/finder": "^v5.0.0"
+            },
+            "require-dev": {
+                "magento/magento-coding-standard": "~4.0.0",
+                "phpmd/phpmd": "@stable"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Frenet\\Shipping\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Tiago Sampaio",
+                    "email": "tiago@tiagosampaio.com",
+                    "homepage": "http://tiagosampaio.com",
+                    "role": "Magento Architect"
+                }
+            ],
+            "description": "Integrate your Magento 2 with Frenet Services in a simple way.",
+            "support": {
+                "email": "contato@frenet.com.br",
+                "issues": "https://github.com/FrenetGatewaydeFretes/frenet-magento2/issues",
+                "source": "https://github.com/FrenetGatewaydeFretes/frenet-magento2/tree/2.4.6.0"
+            },
+            "time": "2023-06-20T14:24:46+00:00"
+        },
+        {
+            "name": "frenet/frenet-php",
+            "version": "1.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FrenetGatewaydeFretes/frenet-php.git",
+                "reference": "293c58e7f818e0eee5d143b0f761b8b5adc58bb8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FrenetGatewaydeFretes/frenet-php/zipball/293c58e7f818e0eee5d143b0f761b8b5adc58bb8",
+                "reference": "293c58e7f818e0eee5d143b0f761b8b5adc58bb8",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": ">=6.3",
+                "monolog/monolog": ">=1.17",
+                "php": "^7.0|>=8.0",
+                "php-di/php-di": "^6.0"
+            },
+            "require-dev": {
+                "codacy/coverage": "dev-master",
+                "phpmd/phpmd": "^2.6",
+                "phpunit/phpunit": "^9.5",
+                "squizlabs/php_codesniffer": "^3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/app/bootstrap.php"
+                ],
+                "psr-4": {
+                    "Frenet\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Frenet",
+                    "email": "n3@tfrenet.com.br"
+                }
+            ],
+            "description": "The easiest way to integrate your PHP application with Frenet API.",
+            "keywords": [
+                "frenet",
+                "sdk",
+                "shipping"
+            ],
+            "support": {
+                "source": "https://github.com/FrenetGatewaydeFretes/frenet-php/tree/1.3.1"
+            },
+            "time": "2022-11-03T17:39:38+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -4415,6 +4533,67 @@
             "time": "2024-11-21T17:42:20+00:00"
         },
         {
+            "name": "laravel/serializable-closure",
+            "version": "v1.3.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/serializable-closure.git",
+                "reference": "4f48ade902b94323ca3be7646db16209ec76be3d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/4f48ade902b94323ca3be7646db16209ec76be3d",
+                "reference": "4f48ade902b94323ca3be7646db16209ec76be3d",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.3|^8.0"
+            },
+            "require-dev": {
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0",
+                "nesbot/carbon": "^2.61|^3.0",
+                "pestphp/pest": "^1.21.3",
+                "phpstan/phpstan": "^1.8.2",
+                "symfony/var-dumper": "^5.4.11|^6.2.0|^7.0.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laravel\\SerializableClosure\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                },
+                {
+                    "name": "Nuno Maduro",
+                    "email": "nuno@laravel.com"
+                }
+            ],
+            "description": "Laravel Serializable Closure provides an easy and secure way to serialize closures in PHP.",
+            "keywords": [
+                "closure",
+                "laravel",
+                "serializable"
+            ],
+            "support": {
+                "issues": "https://github.com/laravel/serializable-closure/issues",
+                "source": "https://github.com/laravel/serializable-closure"
+            },
+            "time": "2024-11-14T18:34:49+00:00"
+        },
+        {
             "name": "league/flysystem",
             "version": "2.5.0",
             "source": {
@@ -6003,6 +6182,179 @@
                 "source": "https://github.com/php-amqplib/php-amqplib/tree/v3.7.2"
             },
             "time": "2024-11-21T09:21:41+00:00"
+        },
+        {
+            "name": "php-di/invoker",
+            "version": "2.3.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHP-DI/Invoker.git",
+                "reference": "93d381d0ec42074f43530506849fdc2d3a86a809"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHP-DI/Invoker/zipball/93d381d0ec42074f43530506849fdc2d3a86a809",
+                "reference": "93d381d0ec42074f43530506849fdc2d3a86a809",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3",
+                "psr/container": "^1.0|^2.0"
+            },
+            "require-dev": {
+                "athletic/athletic": "~0.1.8",
+                "mnapoli/hard-mode": "~0.3.0",
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Invoker\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Generic and extensible callable invoker",
+            "homepage": "https://github.com/PHP-DI/Invoker",
+            "keywords": [
+                "callable",
+                "dependency",
+                "dependency-injection",
+                "injection",
+                "invoke",
+                "invoker"
+            ],
+            "support": {
+                "issues": "https://github.com/PHP-DI/Invoker/issues",
+                "source": "https://github.com/PHP-DI/Invoker/tree/2.3.5"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/mnapoli",
+                    "type": "github"
+                }
+            ],
+            "time": "2025-01-17T10:02:37+00:00"
+        },
+        {
+            "name": "php-di/php-di",
+            "version": "6.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHP-DI/PHP-DI.git",
+                "reference": "ae0f1b3b03d8b29dff81747063cbfd6276246cc4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHP-DI/PHP-DI/zipball/ae0f1b3b03d8b29dff81747063cbfd6276246cc4",
+                "reference": "ae0f1b3b03d8b29dff81747063cbfd6276246cc4",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/serializable-closure": "^1.0",
+                "php": ">=7.4.0",
+                "php-di/invoker": "^2.0",
+                "php-di/phpdoc-reader": "^2.0.1",
+                "psr/container": "^1.0"
+            },
+            "provide": {
+                "psr/container-implementation": "^1.0"
+            },
+            "require-dev": {
+                "doctrine/annotations": "~1.10",
+                "friendsofphp/php-cs-fixer": "^2.4",
+                "mnapoli/phpunit-easymock": "^1.2",
+                "ocramius/proxy-manager": "^2.11.2",
+                "phpstan/phpstan": "^0.12",
+                "phpunit/phpunit": "^9.5"
+            },
+            "suggest": {
+                "doctrine/annotations": "Install it if you want to use annotations (version ~1.2)",
+                "ocramius/proxy-manager": "Install it if you want to use lazy injection (version ~2.0)"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/functions.php"
+                ],
+                "psr-4": {
+                    "DI\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "The dependency injection container for humans",
+            "homepage": "https://php-di.org/",
+            "keywords": [
+                "PSR-11",
+                "container",
+                "container-interop",
+                "dependency injection",
+                "di",
+                "ioc",
+                "psr11"
+            ],
+            "support": {
+                "issues": "https://github.com/PHP-DI/PHP-DI/issues",
+                "source": "https://github.com/PHP-DI/PHP-DI/tree/6.4.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/mnapoli",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/php-di/php-di",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-04-09T16:46:38+00:00"
+        },
+        {
+            "name": "php-di/phpdoc-reader",
+            "version": "2.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHP-DI/PhpDocReader.git",
+                "reference": "66daff34cbd2627740ffec9469ffbac9f8c8185c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHP-DI/PhpDocReader/zipball/66daff34cbd2627740ffec9469ffbac9f8c8185c",
+                "reference": "66daff34cbd2627740ffec9469ffbac9f8c8185c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0"
+            },
+            "require-dev": {
+                "mnapoli/hard-mode": "~0.3.0",
+                "phpunit/phpunit": "^8.5|^9.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PhpDocReader\\": "src/PhpDocReader"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "PhpDocReader parses @var and @param values in PHP docblocks (supports namespaced class names with the same resolution rules as PHP)",
+            "keywords": [
+                "phpdoc",
+                "reflection"
+            ],
+            "support": {
+                "issues": "https://github.com/PHP-DI/PhpDocReader/issues",
+                "source": "https://github.com/PHP-DI/PhpDocReader/tree/2.2.1"
+            },
+            "time": "2020-10-12T12:39:22+00:00"
         },
         {
             "name": "php-http/discovery",
@@ -11541,16 +11893,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.68.0",
+            "version": "v3.68.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-                "reference": "73f78d8b2b34a0dd65fedb434a602ee4c2c8ad4c"
+                "reference": "b9db2b2ea3cdba7201067acee46f984ef2397cff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/73f78d8b2b34a0dd65fedb434a602ee4c2c8ad4c",
-                "reference": "73f78d8b2b34a0dd65fedb434a602ee4c2c8ad4c",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/b9db2b2ea3cdba7201067acee46f984ef2397cff",
+                "reference": "b9db2b2ea3cdba7201067acee46f984ef2397cff",
                 "shasum": ""
             },
             "require": {
@@ -11632,7 +11984,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.68.0"
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.68.1"
             },
             "funding": [
                 {
@@ -11640,7 +11992,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-01-13T17:01:01+00:00"
+            "time": "2025-01-17T09:20:36+00:00"
         },
         {
             "name": "laminas/laminas-diactoros",

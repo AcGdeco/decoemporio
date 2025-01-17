@@ -28,9 +28,6 @@
         }
     ],
     "require": {
-        "pagbank/payment-magento": "~100.2",
-        "deco/menu": "dev-main",
-        "deco/deco_theme": "dev-main",
         "php": "~8.1.0||~8.2.0",
         "ext-bcmath": "*",
         "ext-ctype": "*",
@@ -54,9 +51,12 @@
         "colinmollenhour/credis": "^1.13",
         "colinmollenhour/php-redis-session-abstract": "~1.5.3",
         "composer/composer": "^2.0, !=2.2.16",
+        "deco/deco_theme": "dev-main",
+        "deco/menu": "dev-main",
         "doctrine/annotations": "^1.13",
         "elasticsearch/elasticsearch": "~7.17.0 || ~8.5.0",
         "ezyang/htmlpurifier": "^4.16",
+        "frenet/frenet-magento2": "^2.4",
         "guzzlehttp/guzzle": "^7.5",
         "laminas/laminas-captcha": "^2.12",
         "laminas/laminas-code": "^4.5",
@@ -90,6 +90,7 @@
         "magento/zend-pdf": "^1.16",
         "monolog/monolog": "^2.7",
         "opensearch-project/opensearch-php": "^1.0 || ^2.0, <2.0.1",
+        "pagbank/payment-magento": "~100.2",
         "pelago/emogrifier": "^7.0",
         "php-amqplib/php-amqplib": "^3.2",
         "phpseclib/mcrypt_compat": "^2.0",
@@ -409,4 +410,3 @@
         }
     }
 }
-
