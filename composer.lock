@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bb37a717e33f87db4ddbc2d4fd53fadb",
+    "content-hash": "1650882bd8f8832d971a85804c453c4f",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -5332,6 +5332,155 @@
             "time": "2024-12-18T14:59:28+00:00"
         },
         {
+            "name": "mageplaza/magento-2-portuguese-brazilian-language-pack",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mageplaza/magento-2-portuguese-brazilian-language-pack.git",
+                "reference": "d1e28628a48ea60b6b87151794670b556c9f9544"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mageplaza/magento-2-portuguese-brazilian-language-pack/zipball/d1e28628a48ea60b6b87151794670b556c9f9544",
+                "reference": "d1e28628a48ea60b6b87151794670b556c9f9544",
+                "shasum": ""
+            },
+            "require": {
+                "mageplaza/module-core": "^1.3.13"
+            },
+            "default-branch": true,
+            "type": "magento2-language",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mageplaza team",
+                    "email": "hi@mageplaza.com",
+                    "homepage": "https://www.mageplaza.com",
+                    "role": "Leader"
+                }
+            ],
+            "description": "Portuguese Brazilian language package for Magento 2",
+            "homepage": "https://www.mageplaza.com",
+            "support": {
+                "issues": "https://github.com/mageplaza/magento-2-portuguese-brazilian-language-pack/issues",
+                "source": "https://github.com/mageplaza/magento-2-portuguese-brazilian-language-pack/tree/master"
+            },
+            "time": "2022-02-22T09:06:50+00:00"
+        },
+        {
+            "name": "mageplaza/module-core",
+            "version": "1.5.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mageplaza/module-core.git",
+                "reference": "64fc245876d9e1d5d6dd9d44963e641cc3c81e29"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mageplaza/module-core/zipball/64fc245876d9e1d5d6dd9d44963e641cc3c81e29",
+                "reference": "64fc245876d9e1d5d6dd9d44963e641cc3c81e29",
+                "shasum": ""
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Mageplaza\\Core\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Mageplaza",
+                    "email": "support@mageplaza.com",
+                    "homepage": "https://www.mageplaza.com",
+                    "role": "Technical Support"
+                }
+            ],
+            "description": "Mageplaza Core for Magento 2",
+            "support": {
+                "source": "https://github.com/mageplaza/module-core/tree/v1.5.10"
+            },
+            "time": "2025-01-10T03:40:31+00:00"
+        },
+        {
+            "name": "mageplaza/module-smtp",
+            "version": "4.7.14",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mageplaza/magento-2-smtp.git",
+                "reference": "68ad9f59ff064492bb067a01791c1794922c5b93"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mageplaza/magento-2-smtp/zipball/68ad9f59ff064492bb067a01791c1794922c5b93",
+                "reference": "68ad9f59ff064492bb067a01791c1794922c5b93",
+                "shasum": ""
+            },
+            "require": {
+                "mageplaza/module-core": "^1.5.9"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Mageplaza\\Smtp\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Mageplaza",
+                    "email": "support@mageplaza.com",
+                    "homepage": "https://www.mageplaza.com",
+                    "role": "Technical Support"
+                }
+            ],
+            "description": "SMTP Extension for Magento 2 helps the owner of store simply install SMTP (Simple Mail Transfer Protocol) server which transmits the messages into codes or numbers",
+            "keywords": [
+                "Facebook ADS",
+                "Marketing Automation",
+                "Messenger",
+                "email",
+                "email marketing",
+                "email settings",
+                "facebook",
+                "gmail smtp",
+                "google ads",
+                "magento 2",
+                "magento 2 smtp",
+                "magento smtp",
+                "mageplaza",
+                "sms",
+                "sms marketing",
+                "smtp",
+                "web push notification",
+                "whatsapp"
+            ],
+            "support": {
+                "source": "https://github.com/mageplaza/magento-2-smtp/tree/v4.7.14"
+            },
+            "time": "2024-12-03T06:30:24+00:00"
+        },
+        {
             "name": "monolog/monolog",
             "version": "2.10.0",
             "source": {
@@ -6185,16 +6334,16 @@
         },
         {
             "name": "php-di/invoker",
-            "version": "2.3.5",
+            "version": "2.3.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-DI/Invoker.git",
-                "reference": "93d381d0ec42074f43530506849fdc2d3a86a809"
+                "reference": "59f15608528d8a8838d69b422a919fd6b16aa576"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-DI/Invoker/zipball/93d381d0ec42074f43530506849fdc2d3a86a809",
-                "reference": "93d381d0ec42074f43530506849fdc2d3a86a809",
+                "url": "https://api.github.com/repos/PHP-DI/Invoker/zipball/59f15608528d8a8838d69b422a919fd6b16aa576",
+                "reference": "59f15608528d8a8838d69b422a919fd6b16aa576",
                 "shasum": ""
             },
             "require": {
@@ -6228,7 +6377,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-DI/Invoker/issues",
-                "source": "https://github.com/PHP-DI/Invoker/tree/2.3.5"
+                "source": "https://github.com/PHP-DI/Invoker/tree/2.3.6"
             },
             "funding": [
                 {
@@ -6236,7 +6385,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-01-17T10:02:37+00:00"
+            "time": "2025-01-17T12:49:27+00:00"
         },
         {
             "name": "php-di/php-di",
@@ -15741,7 +15890,8 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "deco/deco_theme": 20,
-        "deco/menu": 20
+        "deco/menu": 20,
+        "mageplaza/magento-2-portuguese-brazilian-language-pack": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
