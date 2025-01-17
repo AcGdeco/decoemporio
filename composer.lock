@@ -62,16 +62,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.337.1",
+            "version": "3.337.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "fa70febad922e9868c83bfe03c6d078fc2633e17"
+                "reference": "f885dd803a257da9d54e72a4750bba73e1196aee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/fa70febad922e9868c83bfe03c6d078fc2633e17",
-                "reference": "fa70febad922e9868c83bfe03c6d078fc2633e17",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/f885dd803a257da9d54e72a4750bba73e1196aee",
+                "reference": "f885dd803a257da9d54e72a4750bba73e1196aee",
                 "shasum": ""
             },
             "require": {
@@ -154,9 +154,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.337.1"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.337.2"
             },
-            "time": "2025-01-16T19:12:46+00:00"
+            "time": "2025-01-17T19:10:04+00:00"
         },
         {
             "name": "brick/math",
@@ -1089,12 +1089,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/AcGdeco/deco_theme.git",
-                "reference": "bf6b9dc82cf206626c3dddc8625db926b8fc9570"
+                "reference": "5bf7bdd2931fc5c84ebcf90708bb222fe4a39e4e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AcGdeco/deco_theme/zipball/bf6b9dc82cf206626c3dddc8625db926b8fc9570",
-                "reference": "bf6b9dc82cf206626c3dddc8625db926b8fc9570",
+                "url": "https://api.github.com/repos/AcGdeco/deco_theme/zipball/5bf7bdd2931fc5c84ebcf90708bb222fe4a39e4e",
+                "reference": "5bf7bdd2931fc5c84ebcf90708bb222fe4a39e4e",
                 "shasum": ""
             },
             "require": {
@@ -1117,7 +1117,7 @@
                 "source": "https://github.com/AcGdeco/deco_theme/tree/main",
                 "issues": "https://github.com/AcGdeco/deco_theme/issues"
             },
-            "time": "2025-01-17T17:01:11+00:00"
+            "time": "2025-01-17T21:14:10+00:00"
         },
         {
             "name": "deco/menu",
