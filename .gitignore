@@ -65,6 +65,7 @@ atlassian*
 /pub/static/*
 !/pub/static/.htaccess
 /pub/media/pagbank/
+/pub/media/mageplaza/bannerslider
 
 /var/*
 !/var/.htaccess

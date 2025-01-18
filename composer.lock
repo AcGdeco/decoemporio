@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1650882bd8f8832d971a85804c453c4f",
+    "content-hash": "b1e17ae70dd0008ef56ad7446c267a1c",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -1089,12 +1089,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/AcGdeco/deco_theme.git",
-                "reference": "5bf7bdd2931fc5c84ebcf90708bb222fe4a39e4e"
+                "reference": "9ce473590f8759ee469dbf992d7ffbd74ab7ba90"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AcGdeco/deco_theme/zipball/5bf7bdd2931fc5c84ebcf90708bb222fe4a39e4e",
-                "reference": "5bf7bdd2931fc5c84ebcf90708bb222fe4a39e4e",
+                "url": "https://api.github.com/repos/AcGdeco/deco_theme/zipball/9ce473590f8759ee469dbf992d7ffbd74ab7ba90",
+                "reference": "9ce473590f8759ee469dbf992d7ffbd74ab7ba90",
                 "shasum": ""
             },
             "require": {
@@ -1117,7 +1117,7 @@
                 "source": "https://github.com/AcGdeco/deco_theme/tree/main",
                 "issues": "https://github.com/AcGdeco/deco_theme/issues"
             },
-            "time": "2025-01-17T21:14:10+00:00"
+            "time": "2025-01-18T17:31:53+00:00"
         },
         {
             "name": "deco/menu",
@@ -5374,6 +5374,51 @@
                 "source": "https://github.com/mageplaza/magento-2-portuguese-brazilian-language-pack/tree/master"
             },
             "time": "2022-02-22T09:06:50+00:00"
+        },
+        {
+            "name": "mageplaza/module-banner-slider",
+            "version": "4.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mageplaza/magento-2-banner-slider.git",
+                "reference": "21e1d42b38c71e76e57728e9e19d50830be0df91"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mageplaza/magento-2-banner-slider/zipball/21e1d42b38c71e76e57728e9e19d50830be0df91",
+                "reference": "21e1d42b38c71e76e57728e9e19d50830be0df91",
+                "shasum": ""
+            },
+            "require": {
+                "mageplaza/module-core": "^1.5.3"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Mageplaza\\BannerSlider\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Mageplaza",
+                    "email": "support@mageplaza.com",
+                    "homepage": "https://www.mageplaza.com",
+                    "role": "Technical Support"
+                }
+            ],
+            "description": "Magento 2 Banner Slider extension",
+            "support": {
+                "issues": "https://github.com/mageplaza/magento-2-banner-slider/issues",
+                "source": "https://github.com/mageplaza/magento-2-banner-slider/tree/v4.0.4"
+            },
+            "time": "2023-05-31T04:49:32+00:00"
         },
         {
             "name": "mageplaza/module-core",
