@@ -62,16 +62,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.337.2",
+            "version": "3.337.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "f885dd803a257da9d54e72a4750bba73e1196aee"
+                "reference": "06dfc8f76423b49aaa181debd25bbdc724c346d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/f885dd803a257da9d54e72a4750bba73e1196aee",
-                "reference": "f885dd803a257da9d54e72a4750bba73e1196aee",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/06dfc8f76423b49aaa181debd25bbdc724c346d6",
+                "reference": "06dfc8f76423b49aaa181debd25bbdc724c346d6",
                 "shasum": ""
             },
             "require": {
@@ -154,9 +154,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.337.2"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.337.3"
             },
-            "time": "2025-01-17T19:10:04+00:00"
+            "time": "2025-01-21T19:10:05+00:00"
         },
         {
             "name": "brick/math",
@@ -3965,16 +3965,16 @@
         },
         {
             "name": "laminas/laminas-session",
-            "version": "2.22.1",
+            "version": "2.23.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-session.git",
-                "reference": "0c2b84c26abca83dfc2cb41f114edb12ad06d111"
+                "reference": "799aeb8c9fc42763966d9d18789f88e96280f7b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-session/zipball/0c2b84c26abca83dfc2cb41f114edb12ad06d111",
-                "reference": "0c2b84c26abca83dfc2cb41f114edb12ad06d111",
+                "url": "https://api.github.com/repos/laminas/laminas-session/zipball/799aeb8c9fc42763966d9d18789f88e96280f7b4",
+                "reference": "799aeb8c9fc42763966d9d18789f88e96280f7b4",
                 "shasum": ""
             },
             "require": {
@@ -4044,7 +4044,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2024-12-19T10:45:50+00:00"
+            "time": "2025-01-23T20:54:08+00:00"
         },
         {
             "name": "laminas/laminas-soap",
@@ -13099,16 +13099,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.12.15",
+            "version": "1.12.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "c91d4e8bc056f46cf653656e6f71004b254574d1"
+                "reference": "e0bb5cb78545aae631220735aa706eac633a6be9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/c91d4e8bc056f46cf653656e6f71004b254574d1",
-                "reference": "c91d4e8bc056f46cf653656e6f71004b254574d1",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/e0bb5cb78545aae631220735aa706eac633a6be9",
+                "reference": "e0bb5cb78545aae631220735aa706eac633a6be9",
                 "shasum": ""
             },
             "require": {
@@ -13153,7 +13153,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-01-05T16:40:22+00:00"
+            "time": "2025-01-21T14:50:05+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -15265,16 +15265,16 @@
         },
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.11.2",
+            "version": "3.11.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPCSStandards/PHP_CodeSniffer.git",
-                "reference": "1368f4a58c3c52114b86b1abe8f4098869cb0079"
+                "reference": "ba05f990e79cbe69b9f35c8c1ac8dca7eecc3a10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPCSStandards/PHP_CodeSniffer/zipball/1368f4a58c3c52114b86b1abe8f4098869cb0079",
-                "reference": "1368f4a58c3c52114b86b1abe8f4098869cb0079",
+                "url": "https://api.github.com/repos/PHPCSStandards/PHP_CodeSniffer/zipball/ba05f990e79cbe69b9f35c8c1ac8dca7eecc3a10",
+                "reference": "ba05f990e79cbe69b9f35c8c1ac8dca7eecc3a10",
                 "shasum": ""
             },
             "require": {
@@ -15339,9 +15339,13 @@
                 {
                     "url": "https://opencollective.com/php_codesniffer",
                     "type": "open_collective"
+                },
+                {
+                    "url": "https://thanks.dev/phpcsstandards",
+                    "type": "thanks_dev"
                 }
             ],
-            "time": "2024-12-11T16:04:26+00:00"
+            "time": "2025-01-23T17:04:15+00:00"
         },
         {
             "name": "symfony/dotenv",
