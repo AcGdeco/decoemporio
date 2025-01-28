@@ -23,10 +23,11 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
             cd /var/www/html
-            git pull origin main 
+            git pull origin main
+            php bin/magento cache:clean 
+            php bin/magento cache:flush
             composer update
             php bin/magento setup:upgrade 
             php bin/magento setup:di:compile 
             php bin/magento setup:static-content:deploy -f  
             php bin/magento indexer:reindex 
-            php bin/magento cache:clean 
