@@ -1089,12 +1089,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/AcGdeco/deco_theme.git",
-                "reference": "b946f4137ae860b2235f4c009981a4d083b6c5bf"
+                "reference": "12aa4910419970a1525333426b786afc6747580d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AcGdeco/deco_theme/zipball/b946f4137ae860b2235f4c009981a4d083b6c5bf",
-                "reference": "b946f4137ae860b2235f4c009981a4d083b6c5bf",
+                "url": "https://api.github.com/repos/AcGdeco/deco_theme/zipball/12aa4910419970a1525333426b786afc6747580d",
+                "reference": "12aa4910419970a1525333426b786afc6747580d",
                 "shasum": ""
             },
             "require": {
@@ -1117,7 +1117,7 @@
                 "source": "https://github.com/AcGdeco/deco_theme/tree/main",
                 "issues": "https://github.com/AcGdeco/deco_theme/issues"
             },
-            "time": "2025-01-28T10:31:06+00:00"
+            "time": "2025-01-28T11:52:20+00:00"
         },
         {
             "name": "deco/menu",
@@ -3965,16 +3965,16 @@
         },
         {
             "name": "laminas/laminas-session",
-            "version": "2.23.0",
+            "version": "2.23.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-session.git",
-                "reference": "799aeb8c9fc42763966d9d18789f88e96280f7b4"
+                "reference": "9015fcb3187e23f1f700de38605aeb44d05d7d8c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-session/zipball/799aeb8c9fc42763966d9d18789f88e96280f7b4",
-                "reference": "799aeb8c9fc42763966d9d18789f88e96280f7b4",
+                "url": "https://api.github.com/repos/laminas/laminas-session/zipball/9015fcb3187e23f1f700de38605aeb44d05d7d8c",
+                "reference": "9015fcb3187e23f1f700de38605aeb44d05d7d8c",
                 "shasum": ""
             },
             "require": {
@@ -4044,7 +4044,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2025-01-23T20:54:08+00:00"
+            "time": "2025-01-27T11:08:22+00:00"
         },
         {
             "name": "laminas/laminas-soap",
