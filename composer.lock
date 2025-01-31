@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b1e17ae70dd0008ef56ad7446c267a1c",
+    "content-hash": "293948714870b0b208bd4fbd52251bca",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -1089,12 +1089,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/AcGdeco/deco_theme.git",
-                "reference": "14d6854b48fb1e6f3849b6475ee6d7d2b676dfd5"
+                "reference": "6f13a414a6dbd47dfe6400c360a538780d349a72"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AcGdeco/deco_theme/zipball/14d6854b48fb1e6f3849b6475ee6d7d2b676dfd5",
-                "reference": "14d6854b48fb1e6f3849b6475ee6d7d2b676dfd5",
+                "url": "https://api.github.com/repos/AcGdeco/deco_theme/zipball/6f13a414a6dbd47dfe6400c360a538780d349a72",
+                "reference": "6f13a414a6dbd47dfe6400c360a538780d349a72",
                 "shasum": ""
             },
             "require": {
@@ -1117,7 +1117,7 @@
                 "source": "https://github.com/AcGdeco/deco_theme/tree/main",
                 "issues": "https://github.com/AcGdeco/deco_theme/issues"
             },
-            "time": "2025-01-30T15:20:55+00:00"
+            "time": "2025-01-31T16:27:19+00:00"
         },
         {
             "name": "deco/menu",
@@ -5524,6 +5524,95 @@
                 "source": "https://github.com/mageplaza/magento-2-smtp/tree/v4.7.14"
             },
             "time": "2024-12-03T06:30:24+00:00"
+        },
+        {
+            "name": "magepow/core",
+            "version": "1.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magepow/magento-2-core.git",
+                "reference": "a3ce39b14021923466a229e017a3591a64bf082f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magepow/magento-2-core/zipball/a3ce39b14021923466a229e017a3591a64bf082f",
+                "reference": "a3ce39b14021923466a229e017a3591a64bf082f",
+                "shasum": ""
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magepow\\Core\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Magepow",
+                    "email": "support@magepow.com",
+                    "homepage": "https://magepow.com",
+                    "role": "Technical Support"
+                }
+            ],
+            "description": "Magepow Core for Magento 2.",
+            "support": {
+                "issues": "https://github.com/magepow/magento-2-core/issues",
+                "source": "https://github.com/magepow/magento-2-core/tree/1.0.7"
+            },
+            "time": "2023-09-24T06:40:00+00:00"
+        },
+        {
+            "name": "magepow/layerednav",
+            "version": "1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magepow/magento-2-layered-navigation.git",
+                "reference": "98294be6e18101f97d89bedf107ff0a0800070fe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magepow/magento-2-layered-navigation/zipball/98294be6e18101f97d89bedf107ff0a0800070fe",
+                "reference": "98294be6e18101f97d89bedf107ff0a0800070fe",
+                "shasum": ""
+            },
+            "require": {
+                "magepow/core": "^1.0.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magepow\\Layerednav\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Magepow",
+                    "email": "support@magepow.com",
+                    "homepage": "https://magepow.com",
+                    "role": "Technical Support"
+                }
+            ],
+            "description": "Magento 2 Advanced Layered Navigation Ajax",
+            "support": {
+                "issues": "https://github.com/magepow/magento-2-layered-navigation/issues",
+                "source": "https://github.com/magepow/magento-2-layered-navigation/tree/1.0.4"
+            },
+            "time": "2022-05-17T01:43:31+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -12087,16 +12176,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.68.4",
+            "version": "v3.68.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-                "reference": "5c2f466ef3d7eba8af9463bcab829370b975333f"
+                "reference": "7bedb718b633355272428c60736dc97fb96daf27"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/5c2f466ef3d7eba8af9463bcab829370b975333f",
-                "reference": "5c2f466ef3d7eba8af9463bcab829370b975333f",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/7bedb718b633355272428c60736dc97fb96daf27",
+                "reference": "7bedb718b633355272428c60736dc97fb96daf27",
                 "shasum": ""
             },
             "require": {
@@ -12178,7 +12267,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.68.4"
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.68.5"
             },
             "funding": [
                 {
@@ -12186,7 +12275,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-01-30T09:14:56+00:00"
+            "time": "2025-01-30T17:00:50+00:00"
         },
         {
             "name": "laminas/laminas-diactoros",
