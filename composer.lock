@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b4f39b45888ce8ae8db5f114a014cda1",
+    "content-hash": "45ea2e9c5f086f16866fdc022834d118",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -6064,16 +6064,16 @@
         },
         {
             "name": "pagbank/payment-magento",
-            "version": "100.2.48",
+            "version": "100.2.43",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pagseguro/payment-magento.git",
-                "reference": "23e80c958dc3aba5c2c2c0170d5e76ce59ebb6df"
+                "reference": "a3b77e778e976293b250503ffee794fcbf4ffac5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pagseguro/payment-magento/zipball/23e80c958dc3aba5c2c2c0170d5e76ce59ebb6df",
-                "reference": "23e80c958dc3aba5c2c2c0170d5e76ce59ebb6df",
+                "url": "https://api.github.com/repos/pagseguro/payment-magento/zipball/a3b77e778e976293b250503ffee794fcbf4ffac5",
+                "reference": "a3b77e778e976293b250503ffee794fcbf4ffac5",
                 "shasum": ""
             },
             "require": {
@@ -6090,7 +6090,7 @@
                 "magento/module-theme": "*",
                 "magento/module-ui": "*",
                 "magento/module-vault": "*",
-                "php": "~8.1.0||~8.2.0||~8.3.0"
+                "php": "~8.1.0||~8.2.0"
             },
             "require-dev": {
                 "magento/magento-coding-standard": "*",
@@ -6122,9 +6122,9 @@
             "description": "PagBank - Payment for Magento and Adobe",
             "support": {
                 "issues": "https://github.com/pagseguro/payment-magento/issues",
-                "source": "https://github.com/pagseguro/payment-magento/tree/100.2.48"
+                "source": "https://github.com/pagseguro/payment-magento/tree/100.2.43"
             },
-            "time": "2024-12-05T17:17:27+00:00"
+            "time": "2024-05-29T12:59:33+00:00"
         },
         {
             "name": "paragonie/constant_time_encoding",
