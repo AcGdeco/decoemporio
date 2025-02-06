@@ -22,7 +22,7 @@ jobs:
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
-            cd /var/www/html
+            cd ${{ secrets.DIR }}
             git pull origin main
             php bin/magento cache:clean 
             php bin/magento cache:flush
