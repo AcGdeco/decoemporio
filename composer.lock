@@ -1270,12 +1270,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/AcGdeco/deco_menu.git",
-                "reference": "683c6d648701e1fd7b53caf1dd51d40043fcb110"
+                "reference": "32747e2383fa1e6532d5c41c70f4ba9cf42e7c62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AcGdeco/deco_menu/zipball/683c6d648701e1fd7b53caf1dd51d40043fcb110",
-                "reference": "683c6d648701e1fd7b53caf1dd51d40043fcb110",
+                "url": "https://api.github.com/repos/AcGdeco/deco_menu/zipball/32747e2383fa1e6532d5c41c70f4ba9cf42e7c62",
+                "reference": "32747e2383fa1e6532d5c41c70f4ba9cf42e7c62",
                 "shasum": ""
             },
             "default-branch": true,
@@ -1303,7 +1303,7 @@
                 "source": "https://github.com/AcGdeco/deco_menu/tree/main",
                 "issues": "https://github.com/AcGdeco/deco_menu/issues"
             },
-            "time": "2025-02-07T14:49:46+00:00"
+            "time": "2025-02-07T15:08:12+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -13497,16 +13497,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.12.16",
+            "version": "1.12.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "e0bb5cb78545aae631220735aa706eac633a6be9"
+                "reference": "7027b3b0270bf392de0cfba12825979768d728bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/e0bb5cb78545aae631220735aa706eac633a6be9",
-                "reference": "e0bb5cb78545aae631220735aa706eac633a6be9",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/7027b3b0270bf392de0cfba12825979768d728bf",
+                "reference": "7027b3b0270bf392de0cfba12825979768d728bf",
                 "shasum": ""
             },
             "require": {
@@ -13551,7 +13551,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-01-21T14:50:05+00:00"
+            "time": "2025-02-07T15:01:57+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
