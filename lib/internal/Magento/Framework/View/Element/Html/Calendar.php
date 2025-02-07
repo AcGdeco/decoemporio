@@ -110,10 +110,14 @@ class Calendar extends \Magento\Framework\View\Element\Template
 
         $this->assignFieldsValues($localeData);
 
-        // get "am" & "pm" words
-        $this->assign('am', $this->encoder->encode($localeData['calendar']['gregorian']['AmPmMarkers']['0']));
-        $this->assign('pm', $this->encoder->encode($localeData['calendar']['gregorian']['AmPmMarkers']['1']));
-
+        if(!empty($localeData['calendar']['gregorian']['AmPmMarkers']['0'])){
+            // get "am" & "pm" words
+            $this->assign('am', $this->encoder->encode($localeData['calendar']['gregorian']['AmPmMarkers']['0']));
+        }
+        if(!empty($localeData['calendar']['gregorian']['AmPmMarkers']['1'])){
+            $this->assign('pm', $this->encoder->encode($localeData['calendar']['gregorian']['AmPmMarkers']['1']));
+        }
+        
         // get first day of week and weekend days
         $this->assign(
             'firstDay',
