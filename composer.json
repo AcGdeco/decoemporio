@@ -19,12 +19,25 @@
     "version": "2.4.6-p8",
     "repositories": [
         {
+            "type": "composer",
+            "url": "https://packagist.org",
+            "exclude": ["backendorf/module-installment"]
+        },
+        {
             "type": "vcs",
             "url": "https://github.com/AcGdeco/deco_menu.git"
         },
         {
             "type": "vcs",
             "url": "https://github.com/AcGdeco/deco_theme.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/AcGdeco/payment_methods_rates.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/AcGdeco/module-installment.git"
         }
     ],
     "require": {
@@ -46,7 +59,8 @@
         "ext-xsl": "*",
         "ext-zip": "*",
         "lib-libxml": "*",
-        "backendorf/module-installment": "^1.3",
+        "backendorf/module-installment": "dev-main",
+        "braspag/magento2-module-braspagpagador": "^3.20",
         "colinmollenhour/cache-backend-file": "^1.4",
         "colinmollenhour/cache-backend-redis": "^1.14",
         "colinmollenhour/credis": "^1.13",
@@ -54,6 +68,7 @@
         "composer/composer": "^2.0, !=2.2.16",
         "deco/deco_theme": "dev-main",
         "deco/menu": "dev-main",
+        "deco/rates": "dev-main",
         "doctrine/annotations": "^1.13",
         "elasticsearch/elasticsearch": "~7.17.0 || ~8.5.0",
         "ezyang/htmlpurifier": "^4.16",
