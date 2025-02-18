@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "091b229d781fd7c950bc7763f926ede8",
+    "content-hash": "add5010b880d59291d34b2f786483d08",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -188,179 +188,6 @@
                 "issues": "https://github.com/AcGdeco/module-installment/issues"
             },
             "time": "2025-02-10T16:57:29+00:00"
-        },
-        {
-            "name": "braspag/braspagpagador-sdk-adapter",
-            "version": "3.19.8",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Braspag/braspag-magento.git",
-                "reference": "b7ff74b890f3a69d728119f1b1c51b71001094d9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Braspag/braspag-magento/zipball/b7ff74b890f3a69d728119f1b1c51b71001094d9",
-                "reference": "b7ff74b890f3a69d728119f1b1c51b71001094d9",
-                "shasum": ""
-            },
-            "require": {
-                "guzzlehttp/guzzle": ">=6.0",
-                "php": ">=5.5"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Braspag\\Braspag\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Webjump Core Team",
-                    "email": "dev@webjump.com.br"
-                }
-            ],
-            "description": "Braspag API PHP SDK",
-            "keywords": [
-                "anti-fraud",
-                "boleto",
-                "braspag",
-                "cielo",
-                "credit-card",
-                "debit-card",
-                "gateway",
-                "payment"
-            ],
-            "support": {
-                "issues": "https://github.com/Braspag/braspag-magento/issues",
-                "source": "https://github.com/Braspag/braspag-magento/tree/3.19.8"
-            },
-            "time": "2025-01-28T19:09:14+00:00"
-        },
-        {
-            "name": "braspag/magento2-module-braspagpagador",
-            "version": "3.20.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Braspag/pagador-module-magento.git",
-                "reference": "6e66a1605ddd214cce3b389160677d27edd62b52"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Braspag/pagador-module-magento/zipball/6e66a1605ddd214cce3b389160677d27edd62b52",
-                "reference": "6e66a1605ddd214cce3b389160677d27edd62b52",
-                "shasum": ""
-            },
-            "require": {
-                "braspag/braspagpagador-sdk-adapter": "*",
-                "braspag/mobiledetectlib": "*",
-                "magento/framework": "*",
-                "magento/module-checkout": "*",
-                "magento/module-config": "*",
-                "magento/module-payment": "*",
-                "magento/module-quote": "*",
-                "magento/module-sales": "*",
-                "magento/module-store": "*",
-                "php": "~7.3.0||~8.1"
-            },
-            "require-dev": {
-                "allure-framework/allure-phpunit": "~1.2.0",
-                "friendsofphp/php-cs-fixer": "~1.10.0|~2.10",
-                "lusitanian/oauth": "~0.3 <=0.7.0|~0.8.10",
-                "magento-ecg/coding-standard": "dev-master",
-                "magento/magento-coding-standard": "~1.0.0",
-                "pdepend/pdepend": "2.2.2|2.5.2",
-                "phpmd/phpmd": "@stable",
-                "phpunit/phpunit": "~6.2.0|~6.5.0",
-                "phpunit/phpunit-selenium": ">=1.2",
-                "rregeer/phpunit-coverage-check": "^0.1.4",
-                "satooshi/php-coveralls": "^1.0",
-                "sebastian/phpcpd": "~3.0.0",
-                "squizlabs/php_codesniffer": "2.7.0|3.3.1"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Braspag\\BraspagPagador\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Webjump Core Team",
-                    "email": "dev@webjump.com.br"
-                }
-            ],
-            "description": "Braspag Pagador integration for Magento 2",
-            "support": {
-                "issues": "https://github.com/Braspag/pagador-module-magento/issues",
-                "source": "https://github.com/Braspag/pagador-module-magento/tree/3.20.2"
-            },
-            "time": "2025-01-31T17:34:41+00:00"
-        },
-        {
-            "name": "braspag/mobiledetectlib",
-            "version": "3.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Braspag/Mobile-Detect.git",
-                "reference": "5def21aed5d411ac258fceb3b97d53c91b9b330f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Braspag/Mobile-Detect/zipball/5def21aed5d411ac258fceb3b97d53c91b9b330f",
-                "reference": "5def21aed5d411ac258fceb3b97d53c91b9b330f",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Detection": "namespaced/"
-                },
-                "classmap": [
-                    "Mobile_Detect.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Webjump Developer Team",
-                    "email": "dev@webjump.com.br",
-                    "homepage": "http://webjump.com.br",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Mobile_Detect is a lightweight PHP class for detecting mobile devices. It uses the User-Agent string combined with specific HTTP headers to detect the mobile environment.",
-            "homepage": "https://github.com/serbanghita/Mobile-Detect",
-            "keywords": [
-                "detect mobile devices",
-                "mobile",
-                "mobile detect",
-                "mobile detector",
-                "php mobile detect"
-            ],
-            "support": {
-                "source": "https://github.com/Braspag/Mobile-Detect/tree/3.0.3"
-            },
-            "time": "2018-08-24T17:09:44+00:00"
         },
         {
             "name": "brick/math",
@@ -1293,12 +1120,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/AcGdeco/deco_theme.git",
-                "reference": "e6659edc22a54e56ca60393a297a32f9cca2246c"
+                "reference": "edb6db0d31ac37c41b1112ccfddfaa5ad6f504ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AcGdeco/deco_theme/zipball/e6659edc22a54e56ca60393a297a32f9cca2246c",
-                "reference": "e6659edc22a54e56ca60393a297a32f9cca2246c",
+                "url": "https://api.github.com/repos/AcGdeco/deco_theme/zipball/edb6db0d31ac37c41b1112ccfddfaa5ad6f504ff",
+                "reference": "edb6db0d31ac37c41b1112ccfddfaa5ad6f504ff",
                 "shasum": ""
             },
             "require": {
@@ -1321,7 +1148,7 @@
                 "source": "https://github.com/AcGdeco/deco_theme/tree/main",
                 "issues": "https://github.com/AcGdeco/deco_theme/issues"
             },
-            "time": "2025-02-13T16:38:55+00:00"
+            "time": "2025-02-14T16:21:23+00:00"
         },
         {
             "name": "deco/menu",
@@ -1329,12 +1156,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/AcGdeco/deco_menu.git",
-                "reference": "32747e2383fa1e6532d5c41c70f4ba9cf42e7c62"
+                "reference": "aeb837bb964bb70d6728bee89939a738e22465f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AcGdeco/deco_menu/zipball/32747e2383fa1e6532d5c41c70f4ba9cf42e7c62",
-                "reference": "32747e2383fa1e6532d5c41c70f4ba9cf42e7c62",
+                "url": "https://api.github.com/repos/AcGdeco/deco_menu/zipball/aeb837bb964bb70d6728bee89939a738e22465f6",
+                "reference": "aeb837bb964bb70d6728bee89939a738e22465f6",
                 "shasum": ""
             },
             "default-branch": true,
@@ -1362,7 +1189,7 @@
                 "source": "https://github.com/AcGdeco/deco_menu/tree/main",
                 "issues": "https://github.com/AcGdeco/deco_menu/issues"
             },
-            "time": "2025-02-07T15:08:12+00:00"
+            "time": "2025-02-14T00:11:07+00:00"
         },
         {
             "name": "deco/rates",
@@ -12011,21 +11838,21 @@
         },
         {
             "name": "codeception/stub",
-            "version": "4.1.3",
+            "version": "4.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Codeception/Stub.git",
-                "reference": "4fcad2c165f365377486dc3fd8703b07f1f2fcae"
+                "reference": "6ce453073a0c220b254dd7f4383645615e4071c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Codeception/Stub/zipball/4fcad2c165f365377486dc3fd8703b07f1f2fcae",
-                "reference": "4fcad2c165f365377486dc3fd8703b07f1f2fcae",
+                "url": "https://api.github.com/repos/Codeception/Stub/zipball/6ce453073a0c220b254dd7f4383645615e4071c3",
+                "reference": "6ce453073a0c220b254dd7f4383645615e4071c3",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.4 | ^8.0",
-                "phpunit/phpunit": "^8.4 | ^9.0 | ^10.0 | ^11"
+                "phpunit/phpunit": "^8.4 | ^9.0 | ^10.0 | ^11 | ^12"
             },
             "conflict": {
                 "codeception/codeception": "<5.0.6"
@@ -12046,9 +11873,9 @@
             "description": "Flexible Stub wrapper for PHPUnit's Mock Builder",
             "support": {
                 "issues": "https://github.com/Codeception/Stub/issues",
-                "source": "https://github.com/Codeception/Stub/tree/4.1.3"
+                "source": "https://github.com/Codeception/Stub/tree/4.1.4"
             },
-            "time": "2024-02-02T19:21:00+00:00"
+            "time": "2025-02-14T06:56:33+00:00"
         },
         {
             "name": "csharpru/vault-php",
