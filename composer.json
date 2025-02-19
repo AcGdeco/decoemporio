@@ -60,7 +60,6 @@
         "ext-zip": "*",
         "lib-libxml": "*",
         "backendorf/module-installment": "dev-main",
-        "braspag/magento2-module-braspagpagador": "^3.20",
         "colinmollenhour/cache-backend-file": "^1.4",
         "colinmollenhour/cache-backend-redis": "^1.14",
         "colinmollenhour/credis": "^1.13",
