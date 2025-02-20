@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "add5010b880d59291d34b2f786483d08",
+    "content-hash": "61d212043a0dcb15b95768d369f36cff",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -1115,17 +1115,58 @@
             "time": "2024-05-06T16:37:16+00:00"
         },
         {
+            "name": "deco/adress",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AcGdeco/adress.git",
+                "reference": "5af45e7483f8da23c39ac721bf54676f397e02cc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AcGdeco/adress/zipball/5af45e7483f8da23c39ac721bf54676f397e02cc",
+                "reference": "5af45e7483f8da23c39ac721bf54676f397e02cc",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Deco\\Adress\\": ""
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Deco",
+                    "email": "andrecristiangoncalves@hotmail.com",
+                    "role": "Creator"
+                }
+            ],
+            "description": "Magento 2 Adress",
+            "support": {
+                "source": "https://github.com/AcGdeco/adress/tree/main",
+                "issues": "https://github.com/AcGdeco/adress/issues"
+            },
+            "time": "2025-02-20T13:13:12+00:00"
+        },
+        {
             "name": "deco/deco_theme",
             "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/AcGdeco/deco_theme.git",
-                "reference": "0dd612d4c2397509c66ea33ed300433998b85029"
+                "reference": "4026f484a9be9689fdbf581f3856d0738d40a8a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AcGdeco/deco_theme/zipball/0dd612d4c2397509c66ea33ed300433998b85029",
-                "reference": "0dd612d4c2397509c66ea33ed300433998b85029",
+                "url": "https://api.github.com/repos/AcGdeco/deco_theme/zipball/4026f484a9be9689fdbf581f3856d0738d40a8a4",
+                "reference": "4026f484a9be9689fdbf581f3856d0738d40a8a4",
                 "shasum": ""
             },
             "require": {
@@ -1148,7 +1189,7 @@
                 "source": "https://github.com/AcGdeco/deco_theme/tree/main",
                 "issues": "https://github.com/AcGdeco/deco_theme/issues"
             },
-            "time": "2025-02-19T17:39:22+00:00"
+            "time": "2025-02-20T14:38:50+00:00"
         },
         {
             "name": "deco/menu",
@@ -16104,6 +16145,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "backendorf/module-installment": 20,
+        "deco/adress": 20,
         "deco/deco_theme": 20,
         "deco/menu": 20,
         "deco/rates": 20,

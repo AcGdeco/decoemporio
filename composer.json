@@ -38,6 +38,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/AcGdeco/module-installment.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/AcGdeco/adress.git"
         }
     ],
     "require": {
@@ -65,6 +69,7 @@
         "colinmollenhour/credis": "^1.13",
         "colinmollenhour/php-redis-session-abstract": "~1.5.3",
         "composer/composer": "^2.0, !=2.2.16",
+        "deco/adress": "dev-main", 
         "deco/deco_theme": "dev-main",
         "deco/menu": "dev-main",
         "deco/rates": "dev-main",
