@@ -1161,12 +1161,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/AcGdeco/deco_theme.git",
-                "reference": "a3ec12e71ca1b1004e62979b140c6d7700ec6706"
+                "reference": "bd092482679a55ab6a1b84ac4d40be087e69b4ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AcGdeco/deco_theme/zipball/a3ec12e71ca1b1004e62979b140c6d7700ec6706",
-                "reference": "a3ec12e71ca1b1004e62979b140c6d7700ec6706",
+                "url": "https://api.github.com/repos/AcGdeco/deco_theme/zipball/bd092482679a55ab6a1b84ac4d40be087e69b4ec",
+                "reference": "bd092482679a55ab6a1b84ac4d40be087e69b4ec",
                 "shasum": ""
             },
             "require": {
@@ -1189,7 +1189,7 @@
                 "source": "https://github.com/AcGdeco/deco_theme/tree/main",
                 "issues": "https://github.com/AcGdeco/deco_theme/issues"
             },
-            "time": "2025-02-26T20:28:32+00:00"
+            "time": "2025-02-27T20:17:18+00:00"
         },
         {
             "name": "deco/menu",
@@ -12720,16 +12720,16 @@
         },
         {
             "name": "magento/magento2-functional-testing-framework",
-            "version": "4.3.11",
+            "version": "4.3.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento/magento2-functional-testing-framework.git",
-                "reference": "7242adcac419aaa6ac8f99aa58e5126059b51183"
+                "reference": "de0a957af8a19e510e139fa4aa1c1b7778a78c5f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento/magento2-functional-testing-framework/zipball/7242adcac419aaa6ac8f99aa58e5126059b51183",
-                "reference": "7242adcac419aaa6ac8f99aa58e5126059b51183",
+                "url": "https://api.github.com/repos/magento/magento2-functional-testing-framework/zipball/de0a957af8a19e510e139fa4aa1c1b7778a78c5f",
+                "reference": "de0a957af8a19e510e139fa4aa1c1b7778a78c5f",
                 "shasum": ""
             },
             "require": {
@@ -12809,9 +12809,9 @@
             ],
             "support": {
                 "issues": "https://github.com/magento/magento2-functional-testing-framework/issues",
-                "source": "https://github.com/magento/magento2-functional-testing-framework/tree/4.3.11"
+                "source": "https://github.com/magento/magento2-functional-testing-framework/tree/4.3.12"
             },
-            "time": "2025-02-26T12:23:42+00:00"
+            "time": "2025-02-27T03:58:37+00:00"
         },
         {
             "name": "magento/php-compatibility-fork",
