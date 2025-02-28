@@ -191,16 +191,16 @@
         },
         {
             "name": "brick/math",
-            "version": "0.12.2",
+            "version": "0.12.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/brick/math.git",
-                "reference": "901eddb1e45a8e0f689302e40af871c181ecbe40"
+                "reference": "866551da34e9a618e64a819ee1e01c20d8a588ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brick/math/zipball/901eddb1e45a8e0f689302e40af871c181ecbe40",
-                "reference": "901eddb1e45a8e0f689302e40af871c181ecbe40",
+                "url": "https://api.github.com/repos/brick/math/zipball/866551da34e9a618e64a819ee1e01c20d8a588ba",
+                "reference": "866551da34e9a618e64a819ee1e01c20d8a588ba",
                 "shasum": ""
             },
             "require": {
@@ -239,7 +239,7 @@
             ],
             "support": {
                 "issues": "https://github.com/brick/math/issues",
-                "source": "https://github.com/brick/math/tree/0.12.2"
+                "source": "https://github.com/brick/math/tree/0.12.3"
             },
             "funding": [
                 {
@@ -247,7 +247,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-26T10:21:45+00:00"
+            "time": "2025-02-28T13:11:00+00:00"
         },
         {
             "name": "brick/varexporter",
@@ -1161,12 +1161,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/AcGdeco/deco_theme.git",
-                "reference": "bd092482679a55ab6a1b84ac4d40be087e69b4ec"
+                "reference": "2babf935730f1f25284e8907d857a4299cca137d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AcGdeco/deco_theme/zipball/bd092482679a55ab6a1b84ac4d40be087e69b4ec",
-                "reference": "bd092482679a55ab6a1b84ac4d40be087e69b4ec",
+                "url": "https://api.github.com/repos/AcGdeco/deco_theme/zipball/2babf935730f1f25284e8907d857a4299cca137d",
+                "reference": "2babf935730f1f25284e8907d857a4299cca137d",
                 "shasum": ""
             },
             "require": {
@@ -1189,7 +1189,7 @@
                 "source": "https://github.com/AcGdeco/deco_theme/tree/main",
                 "issues": "https://github.com/AcGdeco/deco_theme/issues"
             },
-            "time": "2025-02-27T20:17:18+00:00"
+            "time": "2025-02-28T18:49:04+00:00"
         },
         {
             "name": "deco/menu",
@@ -1197,12 +1197,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/AcGdeco/deco_menu.git",
-                "reference": "aeb837bb964bb70d6728bee89939a738e22465f6"
+                "reference": "57ec695c7790b4efcbd9be1a1f185a29785f51f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AcGdeco/deco_menu/zipball/aeb837bb964bb70d6728bee89939a738e22465f6",
-                "reference": "aeb837bb964bb70d6728bee89939a738e22465f6",
+                "url": "https://api.github.com/repos/AcGdeco/deco_menu/zipball/57ec695c7790b4efcbd9be1a1f185a29785f51f8",
+                "reference": "57ec695c7790b4efcbd9be1a1f185a29785f51f8",
                 "shasum": ""
             },
             "default-branch": true,
@@ -1230,7 +1230,7 @@
                 "source": "https://github.com/AcGdeco/deco_menu/tree/main",
                 "issues": "https://github.com/AcGdeco/deco_menu/issues"
             },
-            "time": "2025-02-14T00:11:07+00:00"
+            "time": "2025-02-28T18:07:11+00:00"
         },
         {
             "name": "deco/rates",
@@ -1238,12 +1238,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/AcGdeco/payment_methods_rates.git",
-                "reference": "d0bd417556b7706496d27c0c8d2cba15c69e842e"
+                "reference": "382ebe937f56c6d4354cdfdceb643b2a1c4f4bac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AcGdeco/payment_methods_rates/zipball/d0bd417556b7706496d27c0c8d2cba15c69e842e",
-                "reference": "d0bd417556b7706496d27c0c8d2cba15c69e842e",
+                "url": "https://api.github.com/repos/AcGdeco/payment_methods_rates/zipball/382ebe937f56c6d4354cdfdceb643b2a1c4f4bac",
+                "reference": "382ebe937f56c6d4354cdfdceb643b2a1c4f4bac",
                 "shasum": ""
             },
             "default-branch": true,
@@ -1271,7 +1271,7 @@
                 "source": "https://github.com/AcGdeco/payment_methods_rates/tree/main",
                 "issues": "https://github.com/AcGdeco/payment_methods_rates/issues"
             },
-            "time": "2025-02-23T19:01:25+00:00"
+            "time": "2025-02-28T13:55:36+00:00"
         },
         {
             "name": "doctrine/annotations",
