@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a105c2a6c9ae33503764d284963f7f48",
+    "content-hash": "6367c279f38ec9b64389c065506336a2",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -1156,17 +1156,53 @@
             "time": "2025-02-20T13:13:12+00:00"
         },
         {
+            "name": "deco/base_theme",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:AcGdeco/base_theme.git",
+                "reference": "bf159c94d73f0713af2462caf7fccf5e3e24eb43"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AcGdeco/base_theme/zipball/bf159c94d73f0713af2462caf7fccf5e3e24eb43",
+                "reference": "bf159c94d73f0713af2462caf7fccf5e3e24eb43",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "103.0.*",
+                "php": "~8.1.0||~8.2.0||~8.3.0"
+            },
+            "default-branch": true,
+            "type": "magento2-theme",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "N/A",
+            "support": {
+                "source": "https://github.com/AcGdeco/base_theme/tree/main",
+                "issues": "https://github.com/AcGdeco/base_theme/issues"
+            },
+            "time": "2025-03-01T17:48:07+00:00"
+        },
+        {
             "name": "deco/deco_theme",
             "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/AcGdeco/deco_theme.git",
-                "reference": "9563d336957fa3251e84cf12d54a76ff71a79d66"
+                "reference": "dda1c5435bd05bab83ac77840a5a987ca6231be6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AcGdeco/deco_theme/zipball/9563d336957fa3251e84cf12d54a76ff71a79d66",
-                "reference": "9563d336957fa3251e84cf12d54a76ff71a79d66",
+                "url": "https://api.github.com/repos/AcGdeco/deco_theme/zipball/dda1c5435bd05bab83ac77840a5a987ca6231be6",
+                "reference": "dda1c5435bd05bab83ac77840a5a987ca6231be6",
                 "shasum": ""
             },
             "require": {
@@ -1189,7 +1225,7 @@
                 "source": "https://github.com/AcGdeco/deco_theme/tree/main",
                 "issues": "https://github.com/AcGdeco/deco_theme/issues"
             },
-            "time": "2025-02-28T20:50:13+00:00"
+            "time": "2025-03-01T12:54:38+00:00"
         },
         {
             "name": "deco/menu",
@@ -16252,6 +16288,7 @@
     "stability-flags": {
         "backendorf/module-installment": 20,
         "deco/adress": 20,
+        "deco/base_theme": 20,
         "deco/deco_theme": 20,
         "deco/menu": 20,
         "deco/rates": 20,

@@ -12,6 +12,7 @@ atlassian*
 /sitemap.xml
 /pub/sitemap
 /pub/sitemap.xml
+/pub/media
 /.idea
 /.gitattributes
 /app/config_sandbox
