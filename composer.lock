@@ -1274,12 +1274,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/AcGdeco/payment_methods_rates.git",
-                "reference": "3cd80d848623e6371f368eec6d9bdf8785d49721"
+                "reference": "16888bb530e072ee7169a1a5cf1fcca3862aae24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AcGdeco/payment_methods_rates/zipball/3cd80d848623e6371f368eec6d9bdf8785d49721",
-                "reference": "3cd80d848623e6371f368eec6d9bdf8785d49721",
+                "url": "https://api.github.com/repos/AcGdeco/payment_methods_rates/zipball/16888bb530e072ee7169a1a5cf1fcca3862aae24",
+                "reference": "16888bb530e072ee7169a1a5cf1fcca3862aae24",
                 "shasum": ""
             },
             "default-branch": true,
@@ -1307,7 +1307,7 @@
                 "source": "https://github.com/AcGdeco/payment_methods_rates/tree/main",
                 "issues": "https://github.com/AcGdeco/payment_methods_rates/issues"
             },
-            "time": "2025-02-28T19:51:03+00:00"
+            "time": "2025-03-03T18:07:57+00:00"
         },
         {
             "name": "doctrine/annotations",
