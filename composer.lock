@@ -1274,12 +1274,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/AcGdeco/payment_methods_rates.git",
-                "reference": "78285290a7d21e97a1c54b7b7d29c00511792b6a"
+                "reference": "bd0c54b2f258e3958aa101fda0e141e7fba15646"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AcGdeco/payment_methods_rates/zipball/78285290a7d21e97a1c54b7b7d29c00511792b6a",
-                "reference": "78285290a7d21e97a1c54b7b7d29c00511792b6a",
+                "url": "https://api.github.com/repos/AcGdeco/payment_methods_rates/zipball/bd0c54b2f258e3958aa101fda0e141e7fba15646",
+                "reference": "bd0c54b2f258e3958aa101fda0e141e7fba15646",
                 "shasum": ""
             },
             "default-branch": true,
@@ -1307,7 +1307,7 @@
                 "source": "https://github.com/AcGdeco/payment_methods_rates/tree/main",
                 "issues": "https://github.com/AcGdeco/payment_methods_rates/issues"
             },
-            "time": "2025-03-03T20:00:03+00:00"
+            "time": "2025-03-04T17:17:08+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -5623,16 +5623,16 @@
         },
         {
             "name": "mageplaza/module-core",
-            "version": "1.5.11",
+            "version": "1.5.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mageplaza/module-core.git",
-                "reference": "ebc949299286317df5274d836295fc1df743f0d4"
+                "reference": "8ebf0f2fc27e16774664ad7b4195ca969c3fc9d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mageplaza/module-core/zipball/ebc949299286317df5274d836295fc1df743f0d4",
-                "reference": "ebc949299286317df5274d836295fc1df743f0d4",
+                "url": "https://api.github.com/repos/mageplaza/module-core/zipball/8ebf0f2fc27e16774664ad7b4195ca969c3fc9d2",
+                "reference": "8ebf0f2fc27e16774664ad7b4195ca969c3fc9d2",
                 "shasum": ""
             },
             "type": "magento2-module",
@@ -5658,9 +5658,9 @@
             ],
             "description": "Mageplaza Core for Magento 2",
             "support": {
-                "source": "https://github.com/mageplaza/module-core/tree/v1.5.11"
+                "source": "https://github.com/mageplaza/module-core/tree/v1.5.12"
             },
-            "time": "2025-02-17T02:35:38+00:00"
+            "time": "2025-03-04T07:01:17+00:00"
         },
         {
             "name": "mageplaza/module-google-recaptcha",
@@ -12422,16 +12422,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.70.1",
+            "version": "v3.70.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-                "reference": "add1b3a05256392dbad63875240041b2c0349ceb"
+                "reference": "1ca468270efbb75ce0c7566a79cca8ea2888584d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/add1b3a05256392dbad63875240041b2c0349ceb",
-                "reference": "add1b3a05256392dbad63875240041b2c0349ceb",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/1ca468270efbb75ce0c7566a79cca8ea2888584d",
+                "reference": "1ca468270efbb75ce0c7566a79cca8ea2888584d",
                 "shasum": ""
             },
             "require": {
@@ -12513,7 +12513,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.70.1"
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.70.2"
             },
             "funding": [
                 {
@@ -12521,7 +12521,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-03-01T22:05:46+00:00"
+            "time": "2025-03-03T21:07:23+00:00"
         },
         {
             "name": "laminas/laminas-diactoros",
