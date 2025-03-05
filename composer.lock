@@ -1161,12 +1161,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:AcGdeco/base_theme.git",
-                "reference": "e8f0287ec4f343c84773a4091f6d0ba576233a0c"
+                "reference": "0a1c22c940e7b4d585d94021aa919d628b4277a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AcGdeco/base_theme/zipball/e8f0287ec4f343c84773a4091f6d0ba576233a0c",
-                "reference": "e8f0287ec4f343c84773a4091f6d0ba576233a0c",
+                "url": "https://api.github.com/repos/AcGdeco/base_theme/zipball/0a1c22c940e7b4d585d94021aa919d628b4277a7",
+                "reference": "0a1c22c940e7b4d585d94021aa919d628b4277a7",
                 "shasum": ""
             },
             "require": {
@@ -1189,7 +1189,7 @@
                 "source": "https://github.com/AcGdeco/base_theme/tree/main",
                 "issues": "https://github.com/AcGdeco/base_theme/issues"
             },
-            "time": "2025-03-02T14:52:15+00:00"
+            "time": "2025-03-05T11:50:52+00:00"
         },
         {
             "name": "deco/deco_theme",
@@ -1274,12 +1274,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/AcGdeco/payment_methods_rates.git",
-                "reference": "bd0c54b2f258e3958aa101fda0e141e7fba15646"
+                "reference": "cc0db5c8b2a0305152097d242bd4a007d6c9f60e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AcGdeco/payment_methods_rates/zipball/bd0c54b2f258e3958aa101fda0e141e7fba15646",
-                "reference": "bd0c54b2f258e3958aa101fda0e141e7fba15646",
+                "url": "https://api.github.com/repos/AcGdeco/payment_methods_rates/zipball/cc0db5c8b2a0305152097d242bd4a007d6c9f60e",
+                "reference": "cc0db5c8b2a0305152097d242bd4a007d6c9f60e",
                 "shasum": ""
             },
             "default-branch": true,
@@ -1307,7 +1307,7 @@
                 "source": "https://github.com/AcGdeco/payment_methods_rates/tree/main",
                 "issues": "https://github.com/AcGdeco/payment_methods_rates/issues"
             },
-            "time": "2025-03-04T17:17:08+00:00"
+            "time": "2025-03-04T21:03:47+00:00"
         },
         {
             "name": "doctrine/annotations",
