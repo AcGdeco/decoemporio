@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6367c279f38ec9b64389c065506336a2",
+    "content-hash": "29230217d7fd5287547069782ffca702",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -478,16 +478,16 @@
         },
         {
             "name": "composer/ca-bundle",
-            "version": "1.5.5",
+            "version": "1.5.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/ca-bundle.git",
-                "reference": "08c50d5ec4c6ced7d0271d2862dec8c1033283e6"
+                "reference": "f65c239c970e7f072f067ab78646e9f0b2935175"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/08c50d5ec4c6ced7d0271d2862dec8c1033283e6",
-                "reference": "08c50d5ec4c6ced7d0271d2862dec8c1033283e6",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/f65c239c970e7f072f067ab78646e9f0b2935175",
+                "reference": "f65c239c970e7f072f067ab78646e9f0b2935175",
                 "shasum": ""
             },
             "require": {
@@ -534,7 +534,7 @@
             "support": {
                 "irc": "irc://irc.freenode.org/composer",
                 "issues": "https://github.com/composer/ca-bundle/issues",
-                "source": "https://github.com/composer/ca-bundle/tree/1.5.5"
+                "source": "https://github.com/composer/ca-bundle/tree/1.5.6"
             },
             "funding": [
                 {
@@ -550,7 +550,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-01-08T16:17:16+00:00"
+            "time": "2025-03-06T14:30:56+00:00"
         },
         {
             "name": "composer/class-map-generator",
@@ -1161,12 +1161,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:AcGdeco/base_theme.git",
-                "reference": "84d27e4ef98c9236a804a353dce46364f0331da0"
+                "reference": "8cc0befaeb9d64d1dd6598bc7a5cc107ad181acb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AcGdeco/base_theme/zipball/84d27e4ef98c9236a804a353dce46364f0331da0",
-                "reference": "84d27e4ef98c9236a804a353dce46364f0331da0",
+                "url": "https://api.github.com/repos/AcGdeco/base_theme/zipball/8cc0befaeb9d64d1dd6598bc7a5cc107ad181acb",
+                "reference": "8cc0befaeb9d64d1dd6598bc7a5cc107ad181acb",
                 "shasum": ""
             },
             "require": {
@@ -1189,7 +1189,7 @@
                 "source": "https://github.com/AcGdeco/base_theme/tree/main",
                 "issues": "https://github.com/AcGdeco/base_theme/issues"
             },
-            "time": "2025-03-05T15:34:22+00:00"
+            "time": "2025-03-06T16:42:21+00:00"
         },
         {
             "name": "deco/deco_theme",
@@ -6087,16 +6087,16 @@
         },
         {
             "name": "open-telemetry/api",
-            "version": "1.2.2",
+            "version": "1.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/opentelemetry-php/api.git",
-                "reference": "8b925df3047628968bc5be722468db1b98b82d51"
+                "reference": "199d7ddda88f5f5619fa73463f1a5a7149ccd1f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/opentelemetry-php/api/zipball/8b925df3047628968bc5be722468db1b98b82d51",
-                "reference": "8b925df3047628968bc5be722468db1b98b82d51",
+                "url": "https://api.github.com/repos/opentelemetry-php/api/zipball/199d7ddda88f5f5619fa73463f1a5a7149ccd1f1",
+                "reference": "199d7ddda88f5f5619fa73463f1a5a7149ccd1f1",
                 "shasum": ""
             },
             "require": {
@@ -6153,7 +6153,7 @@
                 "issues": "https://github.com/open-telemetry/opentelemetry-php/issues",
                 "source": "https://github.com/open-telemetry/opentelemetry-php"
             },
-            "time": "2025-02-03T21:49:11+00:00"
+            "time": "2025-03-05T21:42:54+00:00"
         },
         {
             "name": "open-telemetry/context",
@@ -7251,6 +7251,47 @@
                 }
             ],
             "time": "2024-12-14T21:12:59+00:00"
+        },
+        {
+            "name": "prakash282/orderattachment",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AcGdeco/OrderAttachment.git",
+                "reference": "b25a76806def7298789d7f2026fc8ea5c2631b3e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AcGdeco/OrderAttachment/zipball/b25a76806def7298789d7f2026fc8ea5c2631b3e",
+                "reference": "b25a76806def7298789d7f2026fc8ea5c2631b3e",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Sp\\Orderattachment\\": ""
+                }
+            },
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Prakash Patel",
+                    "email": "paks.r.patel@gmail.com"
+                }
+            ],
+            "description": "Order Attachment Magento 2 extension",
+            "homepage": "https://github.com/prakash282/OrderAttachment",
+            "support": {
+                "issues": "https://github.com/prakash282/OrderAttachment",
+                "source": "https://github.com/AcGdeco/OrderAttachment/tree/main"
+            },
+            "time": "2025-03-06T16:34:54+00:00"
         },
         {
             "name": "psr/cache",
@@ -16279,7 +16320,8 @@
         "deco/deco_theme": 20,
         "deco/menu": 20,
         "deco/rates": 20,
-        "mageplaza/magento-2-portuguese-brazilian-language-pack": 20
+        "mageplaza/magento-2-portuguese-brazilian-language-pack": 20,
+        "prakash282/orderattachment": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

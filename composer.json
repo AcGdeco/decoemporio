@@ -21,7 +21,7 @@
         {
             "type": "composer",
             "url": "https://packagist.org",
-            "exclude": ["backendorf/module-installment"]
+            "exclude": ["backendorf/module-installment","prakash282/orderattachment"]
         },
         {
             "type": "vcs",
@@ -46,6 +46,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/AcGdeco/adress.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/AcGdeco/OrderAttachment.git"
         }
     ],
     "require": {
@@ -125,6 +129,7 @@
         "php-amqplib/php-amqplib": "^3.2",
         "phpseclib/mcrypt_compat": "^2.0",
         "phpseclib/phpseclib": "^3.0",
+        "prakash282/orderattachment": "dev-main",
         "ramsey/uuid": "^4.2",
         "symfony/console": "^5.4",
         "symfony/intl": "^5.4",
