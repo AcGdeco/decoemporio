@@ -1161,12 +1161,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:AcGdeco/base_theme.git",
-                "reference": "8cc0befaeb9d64d1dd6598bc7a5cc107ad181acb"
+                "reference": "06beb10bec9b9eeade498a40dac7ab199f3bfe8b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AcGdeco/base_theme/zipball/8cc0befaeb9d64d1dd6598bc7a5cc107ad181acb",
-                "reference": "8cc0befaeb9d64d1dd6598bc7a5cc107ad181acb",
+                "url": "https://api.github.com/repos/AcGdeco/base_theme/zipball/06beb10bec9b9eeade498a40dac7ab199f3bfe8b",
+                "reference": "06beb10bec9b9eeade498a40dac7ab199f3bfe8b",
                 "shasum": ""
             },
             "require": {
@@ -1189,7 +1189,7 @@
                 "source": "https://github.com/AcGdeco/base_theme/tree/main",
                 "issues": "https://github.com/AcGdeco/base_theme/issues"
             },
-            "time": "2025-03-06T16:42:21+00:00"
+            "time": "2025-03-08T19:04:59+00:00"
         },
         {
             "name": "deco/deco_theme",
