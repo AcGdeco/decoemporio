@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "29230217d7fd5287547069782ffca702",
+    "content-hash": "5b9216f07155ce93cbcbd0e2b03050fb",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -1161,12 +1161,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:AcGdeco/base_theme.git",
-                "reference": "aad75930027e140ce3b67f4f63d28fc38c5232f2"
+                "reference": "9cc6ae16d0fb20db9c50b080edc80fcf5002531f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AcGdeco/base_theme/zipball/aad75930027e140ce3b67f4f63d28fc38c5232f2",
-                "reference": "aad75930027e140ce3b67f4f63d28fc38c5232f2",
+                "url": "https://api.github.com/repos/AcGdeco/base_theme/zipball/9cc6ae16d0fb20db9c50b080edc80fcf5002531f",
+                "reference": "9cc6ae16d0fb20db9c50b080edc80fcf5002531f",
                 "shasum": ""
             },
             "require": {
@@ -1189,7 +1189,7 @@
                 "source": "https://github.com/AcGdeco/base_theme/tree/main",
                 "issues": "https://github.com/AcGdeco/base_theme/issues"
             },
-            "time": "2025-03-10T11:29:40+00:00"
+            "time": "2025-03-11T18:42:43+00:00"
         },
         {
             "name": "deco/deco_theme",
@@ -1274,12 +1274,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/AcGdeco/payment_methods_rates.git",
-                "reference": "64e47be334088d88825d08648ebc02f21f274f5e"
+                "reference": "a8eab4c45b6054aa16ecd30b810e356db139ba25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AcGdeco/payment_methods_rates/zipball/64e47be334088d88825d08648ebc02f21f274f5e",
-                "reference": "64e47be334088d88825d08648ebc02f21f274f5e",
+                "url": "https://api.github.com/repos/AcGdeco/payment_methods_rates/zipball/a8eab4c45b6054aa16ecd30b810e356db139ba25",
+                "reference": "a8eab4c45b6054aa16ecd30b810e356db139ba25",
                 "shasum": ""
             },
             "default-branch": true,
@@ -1307,7 +1307,48 @@
                 "source": "https://github.com/AcGdeco/payment_methods_rates/tree/main",
                 "issues": "https://github.com/AcGdeco/payment_methods_rates/issues"
             },
-            "time": "2025-03-08T16:19:49+00:00"
+            "time": "2025-03-11T19:19:47+00:00"
+        },
+        {
+            "name": "deco/tag",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AcGdeco/tag.git",
+                "reference": "c7f7aa98df231feef2ac7309ee5c4a53f3bc8ec9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AcGdeco/tag/zipball/c7f7aa98df231feef2ac7309ee5c4a53f3bc8ec9",
+                "reference": "c7f7aa98df231feef2ac7309ee5c4a53f3bc8ec9",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Deco\\Tag\\": ""
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Deco",
+                    "email": "andrecristiangoncalves@hotmail.com",
+                    "role": "Creator"
+                }
+            ],
+            "description": "Magento 2 Tag",
+            "support": {
+                "source": "https://github.com/AcGdeco/tag/tree/main",
+                "issues": "https://github.com/AcGdeco/tag/issues"
+            },
+            "time": "2025-03-12T15:57:08+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -11781,16 +11822,16 @@
         },
         {
             "name": "codeception/lib-asserts",
-            "version": "2.1.0",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Codeception/lib-asserts.git",
-                "reference": "b8c7dff552249e560879c682ba44a4b963af91bc"
+                "reference": "06750a60af3ebc66faab4313981accec1be4eefc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Codeception/lib-asserts/zipball/b8c7dff552249e560879c682ba44a4b963af91bc",
-                "reference": "b8c7dff552249e560879c682ba44a4b963af91bc",
+                "url": "https://api.github.com/repos/Codeception/lib-asserts/zipball/06750a60af3ebc66faab4313981accec1be4eefc",
+                "reference": "06750a60af3ebc66faab4313981accec1be4eefc",
                 "shasum": ""
             },
             "require": {
@@ -11829,9 +11870,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Codeception/lib-asserts/issues",
-                "source": "https://github.com/Codeception/lib-asserts/tree/2.1.0"
+                "source": "https://github.com/Codeception/lib-asserts/tree/2.2.0"
             },
-            "time": "2023-02-10T18:36:23+00:00"
+            "time": "2025-03-10T20:41:33+00:00"
         },
         {
             "name": "codeception/lib-web",
@@ -16320,6 +16361,7 @@
         "deco/deco_theme": 20,
         "deco/menu": 20,
         "deco/rates": 20,
+        "deco/tag": 20,
         "mageplaza/magento-2-portuguese-brazilian-language-pack": 20,
         "prakash282/orderattachment": 20
     },
