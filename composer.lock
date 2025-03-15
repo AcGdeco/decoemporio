@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5b9216f07155ce93cbcbd0e2b03050fb",
+    "content-hash": "8eb3963d45d9cb0d4c6bfa7c711c88bc",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -1161,12 +1161,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:AcGdeco/base_theme.git",
-                "reference": "9cc6ae16d0fb20db9c50b080edc80fcf5002531f"
+                "reference": "b35f4df621f2e0ea24e90c4904cc6e2496a95b81"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AcGdeco/base_theme/zipball/9cc6ae16d0fb20db9c50b080edc80fcf5002531f",
-                "reference": "9cc6ae16d0fb20db9c50b080edc80fcf5002531f",
+                "url": "https://api.github.com/repos/AcGdeco/base_theme/zipball/b35f4df621f2e0ea24e90c4904cc6e2496a95b81",
+                "reference": "b35f4df621f2e0ea24e90c4904cc6e2496a95b81",
                 "shasum": ""
             },
             "require": {
@@ -1189,7 +1189,7 @@
                 "source": "https://github.com/AcGdeco/base_theme/tree/main",
                 "issues": "https://github.com/AcGdeco/base_theme/issues"
             },
-            "time": "2025-03-11T18:42:43+00:00"
+            "time": "2025-03-15T20:48:23+00:00"
         },
         {
             "name": "deco/deco_theme",
@@ -1274,12 +1274,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/AcGdeco/payment_methods_rates.git",
-                "reference": "a8eab4c45b6054aa16ecd30b810e356db139ba25"
+                "reference": "324d0eb27e78c66317287749d32c10c3b688bf69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AcGdeco/payment_methods_rates/zipball/a8eab4c45b6054aa16ecd30b810e356db139ba25",
-                "reference": "a8eab4c45b6054aa16ecd30b810e356db139ba25",
+                "url": "https://api.github.com/repos/AcGdeco/payment_methods_rates/zipball/324d0eb27e78c66317287749d32c10c3b688bf69",
+                "reference": "324d0eb27e78c66317287749d32c10c3b688bf69",
                 "shasum": ""
             },
             "default-branch": true,
@@ -1307,7 +1307,7 @@
                 "source": "https://github.com/AcGdeco/payment_methods_rates/tree/main",
                 "issues": "https://github.com/AcGdeco/payment_methods_rates/issues"
             },
-            "time": "2025-03-11T19:19:47+00:00"
+            "time": "2025-03-15T20:29:10+00:00"
         },
         {
             "name": "deco/tag",
@@ -1315,12 +1315,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/AcGdeco/tag.git",
-                "reference": "536fa842b9bf97929dceed5209404f21bf123a79"
+                "reference": "e9af91b881ebe7a4cddf71f61663eec0230cf611"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AcGdeco/tag/zipball/536fa842b9bf97929dceed5209404f21bf123a79",
-                "reference": "536fa842b9bf97929dceed5209404f21bf123a79",
+                "url": "https://api.github.com/repos/AcGdeco/tag/zipball/e9af91b881ebe7a4cddf71f61663eec0230cf611",
+                "reference": "e9af91b881ebe7a4cddf71f61663eec0230cf611",
                 "shasum": ""
             },
             "default-branch": true,
@@ -1348,7 +1348,7 @@
                 "source": "https://github.com/AcGdeco/tag/tree/main",
                 "issues": "https://github.com/AcGdeco/tag/issues"
             },
-            "time": "2025-03-12T16:30:53+00:00"
+            "time": "2025-03-15T16:32:08+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -5858,21 +5858,22 @@
         },
         {
             "name": "magepow/layerednav",
-            "version": "1.0.4",
+            "version": "dev-main",
             "source": {
                 "type": "git",
-                "url": "https://github.com/magepow/magento-2-layered-navigation.git",
-                "reference": "98294be6e18101f97d89bedf107ff0a0800070fe"
+                "url": "https://github.com/AcGdeco/magepow-layerednav.git",
+                "reference": "f1e8ab2ae1de16bee93947095ec2f36ed3fe5e6d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magepow/magento-2-layered-navigation/zipball/98294be6e18101f97d89bedf107ff0a0800070fe",
-                "reference": "98294be6e18101f97d89bedf107ff0a0800070fe",
+                "url": "https://api.github.com/repos/AcGdeco/magepow-layerednav/zipball/f1e8ab2ae1de16bee93947095ec2f36ed3fe5e6d",
+                "reference": "f1e8ab2ae1de16bee93947095ec2f36ed3fe5e6d",
                 "shasum": ""
             },
             "require": {
                 "magepow/core": "^1.0.0"
             },
+            "default-branch": true,
             "type": "magento2-module",
             "autoload": {
                 "files": [
@@ -5882,7 +5883,6 @@
                     "Magepow\\Layerednav\\": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "OSL-3.0",
                 "AFL-3.0"
@@ -5897,10 +5897,10 @@
             ],
             "description": "Magento 2 Advanced Layered Navigation Ajax",
             "support": {
-                "issues": "https://github.com/magepow/magento-2-layered-navigation/issues",
-                "source": "https://github.com/magepow/magento-2-layered-navigation/tree/1.0.4"
+                "source": "https://github.com/AcGdeco/magepow-layerednav/tree/main",
+                "issues": "https://github.com/AcGdeco/magepow-layerednav/issues"
             },
-            "time": "2022-05-17T01:43:31+00:00"
+            "time": "2025-02-04T20:51:10+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -12504,16 +12504,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.71.0",
+            "version": "v3.72.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-                "reference": "3825ffdc69501e1c9230291b79f036a0c0d8749d"
+                "reference": "900389362c43d116fee1ffc51f7878145fa61b57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/3825ffdc69501e1c9230291b79f036a0c0d8749d",
-                "reference": "3825ffdc69501e1c9230291b79f036a0c0d8749d",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/900389362c43d116fee1ffc51f7878145fa61b57",
+                "reference": "900389362c43d116fee1ffc51f7878145fa61b57",
                 "shasum": ""
             },
             "require": {
@@ -12543,18 +12543,18 @@
                 "symfony/stopwatch": "^5.4 || ^6.4 || ^7.0"
             },
             "require-dev": {
-                "facile-it/paraunit": "^1.3.1 || ^2.5",
-                "infection/infection": "^0.29.10",
-                "justinrainbow/json-schema": "^5.3 || ^6.0",
+                "facile-it/paraunit": "^1.3.1 || ^2.6",
+                "infection/infection": "^0.29.14",
+                "justinrainbow/json-schema": "^5.3 || ^6.2",
                 "keradus/cli-executor": "^2.1",
                 "mikey179/vfsstream": "^1.6.12",
                 "php-coveralls/php-coveralls": "^2.7",
                 "php-cs-fixer/accessible-object": "^1.1",
                 "php-cs-fixer/phpunit-constraint-isidenticalstring": "^1.6",
                 "php-cs-fixer/phpunit-constraint-xmlmatchesxsd": "^1.6",
-                "phpunit/phpunit": "^9.6.22 || ^10.5.45 || ^11.5.7",
-                "symfony/var-dumper": "^5.4.48 || ^6.4.18 || ^7.2.0",
-                "symfony/yaml": "^5.4.45 || ^6.4.18 || ^7.2.0"
+                "phpunit/phpunit": "^9.6.22 || ^10.5.45 || ^11.5.12",
+                "symfony/var-dumper": "^5.4.48 || ^6.4.18 || ^7.2.3",
+                "symfony/yaml": "^5.4.45 || ^6.4.18 || ^7.2.3"
             },
             "suggest": {
                 "ext-dom": "For handling output formats in XML",
@@ -12595,7 +12595,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.71.0"
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.72.0"
             },
             "funding": [
                 {
@@ -12603,7 +12603,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-03-07T23:06:56+00:00"
+            "time": "2025-03-13T11:25:37+00:00"
         },
         {
             "name": "laminas/laminas-diactoros",
@@ -16363,6 +16363,7 @@
         "deco/rates": 20,
         "deco/tag": 20,
         "mageplaza/magento-2-portuguese-brazilian-language-pack": 20,
+        "magepow/layerednav": 20,
         "prakash282/orderattachment": 20
     },
     "prefer-stable": true,

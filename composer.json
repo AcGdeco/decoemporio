@@ -21,7 +21,7 @@
         {
             "type": "composer",
             "url": "https://packagist.org",
-            "exclude": ["backendorf/module-installment","prakash282/orderattachment"]
+            "exclude": ["backendorf/module-installment","prakash282/orderattachment","magepow/layerednav"]
         },
         {
             "type": "vcs",
@@ -34,10 +34,6 @@
         {
             "type": "vcs",
             "url": "https://github.com/AcGdeco/base_theme.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/AcGdeco/payment_methods_rates.git"
         },
         {
             "type": "vcs",
@@ -54,6 +50,14 @@
         {
             "type": "vcs",
             "url": "https://github.com/AcGdeco/tag.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/AcGdeco/magepow-layerednav.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/AcGdeco/payment_methods_rates.git"
         }
     ],
     "require": {
@@ -126,7 +130,7 @@
         "mageplaza/module-banner-slider": "^4.0",
         "mageplaza/module-google-recaptcha": "^4.0",
         "mageplaza/module-smtp": "^4.7",
-        "magepow/layerednav": "^1.0",
+        "magepow/layerednav": "dev-main",
         "monolog/monolog": "^2.7",
         "opensearch-project/opensearch-php": "^1.0 || ^2.0, <2.0.1",
         "pagbank/payment-magento": "~100.2",
