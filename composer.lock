@@ -1274,12 +1274,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/AcGdeco/payment_methods_rates.git",
-                "reference": "cfbdfd24b16f8f64b1542439c3084cc0fa3f2eaf"
+                "reference": "1cc900667d105fc32e7ea5baefad15d7af52d6d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AcGdeco/payment_methods_rates/zipball/cfbdfd24b16f8f64b1542439c3084cc0fa3f2eaf",
-                "reference": "cfbdfd24b16f8f64b1542439c3084cc0fa3f2eaf",
+                "url": "https://api.github.com/repos/AcGdeco/payment_methods_rates/zipball/1cc900667d105fc32e7ea5baefad15d7af52d6d9",
+                "reference": "1cc900667d105fc32e7ea5baefad15d7af52d6d9",
                 "shasum": ""
             },
             "default-branch": true,
@@ -1307,7 +1307,7 @@
                 "source": "https://github.com/AcGdeco/payment_methods_rates/tree/main",
                 "issues": "https://github.com/AcGdeco/payment_methods_rates/issues"
             },
-            "time": "2025-03-16T10:51:39+00:00"
+            "time": "2025-03-16T14:24:21+00:00"
         },
         {
             "name": "deco/tag",
