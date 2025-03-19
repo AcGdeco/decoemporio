@@ -1315,12 +1315,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/AcGdeco/tag.git",
-                "reference": "adba303489d41cf6b3e484333b1edff371daf56b"
+                "reference": "6e5f88e20cb4edf74f66419d9a0b57da28559139"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AcGdeco/tag/zipball/adba303489d41cf6b3e484333b1edff371daf56b",
-                "reference": "adba303489d41cf6b3e484333b1edff371daf56b",
+                "url": "https://api.github.com/repos/AcGdeco/tag/zipball/6e5f88e20cb4edf74f66419d9a0b57da28559139",
+                "reference": "6e5f88e20cb4edf74f66419d9a0b57da28559139",
                 "shasum": ""
             },
             "default-branch": true,
@@ -1348,7 +1348,7 @@
                 "source": "https://github.com/AcGdeco/tag/tree/main",
                 "issues": "https://github.com/AcGdeco/tag/issues"
             },
-            "time": "2025-03-18T21:26:45+00:00"
+            "time": "2025-03-19T23:08:18+00:00"
         },
         {
             "name": "doctrine/annotations",
