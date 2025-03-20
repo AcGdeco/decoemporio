@@ -1161,12 +1161,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:AcGdeco/base_theme.git",
-                "reference": "58792ede99cd9c3c29ff80ec19bad1a2e63d9b5c"
+                "reference": "179c0624c0aee8f9860613141b6fcab3ddaa85ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AcGdeco/base_theme/zipball/58792ede99cd9c3c29ff80ec19bad1a2e63d9b5c",
-                "reference": "58792ede99cd9c3c29ff80ec19bad1a2e63d9b5c",
+                "url": "https://api.github.com/repos/AcGdeco/base_theme/zipball/179c0624c0aee8f9860613141b6fcab3ddaa85ff",
+                "reference": "179c0624c0aee8f9860613141b6fcab3ddaa85ff",
                 "shasum": ""
             },
             "require": {
@@ -1189,7 +1189,7 @@
                 "source": "https://github.com/AcGdeco/base_theme/tree/main",
                 "issues": "https://github.com/AcGdeco/base_theme/issues"
             },
-            "time": "2025-03-18T02:26:09+00:00"
+            "time": "2025-03-20T00:01:42+00:00"
         },
         {
             "name": "deco/deco_theme",
@@ -1315,12 +1315,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/AcGdeco/tag.git",
-                "reference": "6e5f88e20cb4edf74f66419d9a0b57da28559139"
+                "reference": "6cb76192bf3ea712cfa32a8b72353a2ff8bccfbc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AcGdeco/tag/zipball/6e5f88e20cb4edf74f66419d9a0b57da28559139",
-                "reference": "6e5f88e20cb4edf74f66419d9a0b57da28559139",
+                "url": "https://api.github.com/repos/AcGdeco/tag/zipball/6cb76192bf3ea712cfa32a8b72353a2ff8bccfbc",
+                "reference": "6cb76192bf3ea712cfa32a8b72353a2ff8bccfbc",
                 "shasum": ""
             },
             "default-branch": true,
@@ -1348,7 +1348,7 @@
                 "source": "https://github.com/AcGdeco/tag/tree/main",
                 "issues": "https://github.com/AcGdeco/tag/issues"
             },
-            "time": "2025-03-19T23:08:18+00:00"
+            "time": "2025-03-19T23:50:23+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -12504,16 +12504,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.72.0",
+            "version": "v3.73.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-                "reference": "900389362c43d116fee1ffc51f7878145fa61b57"
+                "reference": "ffcb8200a42045e65049af7910cfd022f631b064"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/900389362c43d116fee1ffc51f7878145fa61b57",
-                "reference": "900389362c43d116fee1ffc51f7878145fa61b57",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/ffcb8200a42045e65049af7910cfd022f631b064",
+                "reference": "ffcb8200a42045e65049af7910cfd022f631b064",
                 "shasum": ""
             },
             "require": {
@@ -12521,6 +12521,7 @@
                 "composer/semver": "^3.4",
                 "composer/xdebug-handler": "^3.0.3",
                 "ext-filter": "*",
+                "ext-hash": "*",
                 "ext-json": "*",
                 "ext-tokenizer": "*",
                 "fidry/cpu-core-counter": "^1.2",
@@ -12595,7 +12596,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.72.0"
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.73.1"
             },
             "funding": [
                 {
@@ -12603,7 +12604,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-03-13T11:25:37+00:00"
+            "time": "2025-03-19T23:42:16+00:00"
         },
         {
             "name": "laminas/laminas-diactoros",
