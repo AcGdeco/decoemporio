@@ -59,6 +59,11 @@
             "type": "vcs",
             "url": "https://github.com/AcGdeco/payment_methods_rates.git"
         }
+        ,
+        {
+            "type": "vcs",
+            "url": "https://github.com/AcGdeco/redes-sociais.git"
+        }
     ],
     "require": {
         "php": "~8.1.0||~8.2.0",
@@ -90,6 +95,7 @@
         "deco/deco_theme": "dev-main",
         "deco/menu": "dev-main",
         "deco/rates": "dev-main",
+        "deco/social": "dev-main",
         "deco/tag": "dev-main",
         "doctrine/annotations": "^1.13",
         "elasticsearch/elasticsearch": "~7.17.0 || ~8.5.0",
