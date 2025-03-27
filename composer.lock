@@ -1315,12 +1315,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:AcGdeco/redes-sociais.git",
-                "reference": "d4ca27f875ebe80bd14ce9af03b1c9a3270110d7"
+                "reference": "8b47553bfe2846f6c1bf253aacf2711a222f39e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AcGdeco/redes-sociais/zipball/d4ca27f875ebe80bd14ce9af03b1c9a3270110d7",
-                "reference": "d4ca27f875ebe80bd14ce9af03b1c9a3270110d7",
+                "url": "https://api.github.com/repos/AcGdeco/redes-sociais/zipball/8b47553bfe2846f6c1bf253aacf2711a222f39e2",
+                "reference": "8b47553bfe2846f6c1bf253aacf2711a222f39e2",
                 "shasum": ""
             },
             "default-branch": true,
@@ -1348,7 +1348,7 @@
                 "source": "https://github.com/AcGdeco/redes-sociais/tree/main",
                 "issues": "https://github.com/AcGdeco/redes-sociais/issues"
             },
-            "time": "2025-03-26T21:03:33+00:00"
+            "time": "2025-03-27T11:38:04+00:00"
         },
         {
             "name": "deco/tag",
