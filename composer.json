@@ -62,6 +62,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/AcGdeco/redes-sociais.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/AcGdeco/shipping.git"
         }
     ],
     "require": {
@@ -94,6 +98,7 @@
         "deco/deco_theme": "dev-main",
         "deco/menu": "dev-main",
         "deco/rates": "dev-main",
+        "deco/shipping": "dev-main",
         "deco/social": "dev-main",
         "deco/tag": "dev-main",
         "doctrine/annotations": "^1.13",
