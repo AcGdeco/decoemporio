@@ -1315,12 +1315,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/AcGdeco/shipping.git",
-                "reference": "e0d60311c7fabf538bc09b7d4c4db0ee43fe67d2"
+                "reference": "e08a9c9dfb838a0cd36d57b518b042da7b3dfc88"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AcGdeco/shipping/zipball/e0d60311c7fabf538bc09b7d4c4db0ee43fe67d2",
-                "reference": "e0d60311c7fabf538bc09b7d4c4db0ee43fe67d2",
+                "url": "https://api.github.com/repos/AcGdeco/shipping/zipball/e08a9c9dfb838a0cd36d57b518b042da7b3dfc88",
+                "reference": "e08a9c9dfb838a0cd36d57b518b042da7b3dfc88",
                 "shasum": ""
             },
             "default-branch": true,
@@ -1348,7 +1348,7 @@
                 "source": "https://github.com/AcGdeco/shipping/tree/main",
                 "issues": "https://github.com/AcGdeco/shipping/issues"
             },
-            "time": "2025-03-30T16:27:08+00:00"
+            "time": "2025-03-30T16:39:22+00:00"
         },
         {
             "name": "deco/social",
