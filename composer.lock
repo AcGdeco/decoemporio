@@ -1161,12 +1161,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:AcGdeco/base_theme.git",
-                "reference": "2c9a1e9d9d92962823d35de07654598864d27b89"
+                "reference": "f2ce175a25826ce8b40a3e03ceed8951b7764932"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AcGdeco/base_theme/zipball/2c9a1e9d9d92962823d35de07654598864d27b89",
-                "reference": "2c9a1e9d9d92962823d35de07654598864d27b89",
+                "url": "https://api.github.com/repos/AcGdeco/base_theme/zipball/f2ce175a25826ce8b40a3e03ceed8951b7764932",
+                "reference": "f2ce175a25826ce8b40a3e03ceed8951b7764932",
                 "shasum": ""
             },
             "require": {
@@ -1189,7 +1189,7 @@
                 "source": "https://github.com/AcGdeco/base_theme/tree/main",
                 "issues": "https://github.com/AcGdeco/base_theme/issues"
             },
-            "time": "2025-03-29T19:30:01+00:00"
+            "time": "2025-03-30T13:31:07+00:00"
         },
         {
             "name": "deco/deco_theme",
@@ -1315,12 +1315,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/AcGdeco/shipping.git",
-                "reference": "b4c7f0b34df9e672105727a34c38a252b5870834"
+                "reference": "e0d60311c7fabf538bc09b7d4c4db0ee43fe67d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AcGdeco/shipping/zipball/b4c7f0b34df9e672105727a34c38a252b5870834",
-                "reference": "b4c7f0b34df9e672105727a34c38a252b5870834",
+                "url": "https://api.github.com/repos/AcGdeco/shipping/zipball/e0d60311c7fabf538bc09b7d4c4db0ee43fe67d2",
+                "reference": "e0d60311c7fabf538bc09b7d4c4db0ee43fe67d2",
                 "shasum": ""
             },
             "default-branch": true,
@@ -1348,7 +1348,7 @@
                 "source": "https://github.com/AcGdeco/shipping/tree/main",
                 "issues": "https://github.com/AcGdeco/shipping/issues"
             },
-            "time": "2025-03-29T20:12:08+00:00"
+            "time": "2025-03-30T16:27:08+00:00"
         },
         {
             "name": "deco/social",
@@ -1356,12 +1356,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:AcGdeco/redes-sociais.git",
-                "reference": "c23b22371b25d70d21cbd4d2db4f3ebc3effcf0a"
+                "reference": "8a472252248a3f3c486475a03d8697c33be1af04"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AcGdeco/redes-sociais/zipball/c23b22371b25d70d21cbd4d2db4f3ebc3effcf0a",
-                "reference": "c23b22371b25d70d21cbd4d2db4f3ebc3effcf0a",
+                "url": "https://api.github.com/repos/AcGdeco/redes-sociais/zipball/8a472252248a3f3c486475a03d8697c33be1af04",
+                "reference": "8a472252248a3f3c486475a03d8697c33be1af04",
                 "shasum": ""
             },
             "default-branch": true,
@@ -1389,7 +1389,7 @@
                 "source": "https://github.com/AcGdeco/redes-sociais/tree/main",
                 "issues": "https://github.com/AcGdeco/redes-sociais/issues"
             },
-            "time": "2025-03-27T19:07:55+00:00"
+            "time": "2025-03-30T13:17:45+00:00"
         },
         {
             "name": "deco/tag",
