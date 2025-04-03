@@ -66,6 +66,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/AcGdeco/shipping.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/AcGdeco/azul-cargo.git"
         }
     ],
     "require": {
@@ -94,6 +98,7 @@
         "colinmollenhour/php-redis-session-abstract": "~1.5.3",
         "composer/composer": "^2.0, !=2.2.16",
         "deco/adress": "dev-main",
+        "deco/azulcargo": "dev-main",
         "deco/base_theme": "dev-main",
         "deco/deco_theme": "dev-main",
         "deco/menu": "dev-main",

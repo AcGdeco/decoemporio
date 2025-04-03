@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ab2a1b907fbf4c741fce0a218607d452",
+    "content-hash": "0b01f19a03a35259c9037d505af913cf",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -1156,6 +1156,47 @@
             "time": "2025-02-20T13:13:12+00:00"
         },
         {
+            "name": "deco/azulcargo",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AcGdeco/azul-cargo.git",
+                "reference": "26b72893f8621f3c0d6356526dbf445bbf7a0fca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AcGdeco/azul-cargo/zipball/26b72893f8621f3c0d6356526dbf445bbf7a0fca",
+                "reference": "26b72893f8621f3c0d6356526dbf445bbf7a0fca",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Deco\\Azulcargo\\": ""
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Deco",
+                    "email": "andrecristiangoncalves@hotmail.com",
+                    "role": "Creator"
+                }
+            ],
+            "description": "Magento 2 Azul Cargo",
+            "support": {
+                "source": "https://github.com/AcGdeco/azul-cargo/tree/main",
+                "issues": "https://github.com/AcGdeco/azul-cargo/issues"
+            },
+            "time": "2025-04-03T17:42:07+00:00"
+        },
+        {
             "name": "deco/base_theme",
             "version": "dev-main",
             "source": {
@@ -1315,12 +1356,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/AcGdeco/shipping.git",
-                "reference": "e3ba2592f7927e10795b2449f0a7b39788a5d5a5"
+                "reference": "969ba80234ae5a5a195bd1b889d4e2cb14be07ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AcGdeco/shipping/zipball/e3ba2592f7927e10795b2449f0a7b39788a5d5a5",
-                "reference": "e3ba2592f7927e10795b2449f0a7b39788a5d5a5",
+                "url": "https://api.github.com/repos/AcGdeco/shipping/zipball/969ba80234ae5a5a195bd1b889d4e2cb14be07ec",
+                "reference": "969ba80234ae5a5a195bd1b889d4e2cb14be07ec",
                 "shasum": ""
             },
             "default-branch": true,
@@ -1348,7 +1389,7 @@
                 "source": "https://github.com/AcGdeco/shipping/tree/main",
                 "issues": "https://github.com/AcGdeco/shipping/issues"
             },
-            "time": "2025-03-30T16:54:04+00:00"
+            "time": "2025-04-02T13:04:20+00:00"
         },
         {
             "name": "deco/social",
@@ -1633,16 +1674,16 @@
         },
         {
             "name": "elastic/transport",
-            "version": "v8.10.0",
+            "version": "v8.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/elastic/elastic-transport-php.git",
-                "reference": "8be37d679637545e50b1cea9f8ee903888783021"
+                "reference": "1d476af5dc0b74530d59b67d5dd96ee39768d5a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elastic/elastic-transport-php/zipball/8be37d679637545e50b1cea9f8ee903888783021",
-                "reference": "8be37d679637545e50b1cea9f8ee903888783021",
+                "url": "https://api.github.com/repos/elastic/elastic-transport-php/zipball/1d476af5dc0b74530d59b67d5dd96ee39768d5a4",
+                "reference": "1d476af5dc0b74530d59b67d5dd96ee39768d5a4",
                 "shasum": ""
             },
             "require": {
@@ -1660,7 +1701,7 @@
                 "nyholm/psr7": "^1.5",
                 "open-telemetry/sdk": "^1.0",
                 "php-http/mock-client": "^1.5",
-                "phpstan/phpstan": "^1.4",
+                "phpstan/phpstan": "^2.1",
                 "phpunit/phpunit": "^9.5",
                 "symfony/http-client": "^5.4"
             },
@@ -1685,9 +1726,9 @@
             ],
             "support": {
                 "issues": "https://github.com/elastic/elastic-transport-php/issues",
-                "source": "https://github.com/elastic/elastic-transport-php/tree/v8.10.0"
+                "source": "https://github.com/elastic/elastic-transport-php/tree/v8.11.0"
             },
-            "time": "2024-08-14T08:55:07+00:00"
+            "time": "2025-04-02T08:20:33+00:00"
         },
         {
             "name": "elasticsearch/elasticsearch",
@@ -12586,16 +12627,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.74.0",
+            "version": "v3.75.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-                "reference": "6b7cb12a6cf592fd9a2b46a2d5d4c3b44003973d"
+                "reference": "399a128ff2fdaf4281e4e79b755693286cdf325c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/6b7cb12a6cf592fd9a2b46a2d5d4c3b44003973d",
-                "reference": "6b7cb12a6cf592fd9a2b46a2d5d4c3b44003973d",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/399a128ff2fdaf4281e4e79b755693286cdf325c",
+                "reference": "399a128ff2fdaf4281e4e79b755693286cdf325c",
                 "shasum": ""
             },
             "require": {
@@ -12678,7 +12719,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.74.0"
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.75.0"
             },
             "funding": [
                 {
@@ -12686,7 +12727,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-03-27T22:31:30+00:00"
+            "time": "2025-03-31T18:40:42+00:00"
         },
         {
             "name": "laminas/laminas-diactoros",
@@ -16440,6 +16481,7 @@
     "stability-flags": {
         "backendorf/module-installment": 20,
         "deco/adress": 20,
+        "deco/azulcargo": 20,
         "deco/base_theme": 20,
         "deco/deco_theme": 20,
         "deco/menu": 20,
