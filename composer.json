@@ -70,6 +70,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/AcGdeco/azul-cargo.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/AcGdeco/dev.git"
         }
     ],
     "require": {
@@ -101,6 +105,7 @@
         "deco/azulcargo": "dev-main",
         "deco/base_theme": "dev-main",
         "deco/deco_theme": "dev-main",
+        "deco/dev": "dev-main",
         "deco/menu": "dev-main",
         "deco/rates": "dev-main",
         "deco/shipping": "dev-main",
